@@ -1,0 +1,115 @@
+// styles for the microsite nav
+
+$af-page-nav-height:    54px;
+$af-page-nav-height-sm: 44px;
+$nav-width-bp:       640px;
+$nav-color:          $j-red;
+
+
+// global site nav height
+@mixin af-page-nav-height {
+  height: $af-page-nav-height-sm;
+  min-height: $af-page-nav-height-sm;
+  @include bp($md){
+    height: $af-page-nav-height;
+    min-height: $af-page-nav-height;
+  }
+}
+
+.af-page-nav {
+  position: absolute;
+  top: 0; left: 0;
+  z-index: $z-nav;
+  width: 100%;
+  background-color: rgba($nav-color,1);
+  text-align: center;
+
+
+  // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
+  &__container {
+    display: block;
+    position: relative;
+    width: 100%;
+    @include page-nav-height;
+  }
+
+
+  &:before {
+    // arrow icon prompt for horizontal scroll
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-nav-upper;
+    width: $af-page-nav-height-sm;
+    background-image: url("../img/icons/nav-arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $af-page-nav-height-sm auto;
+    @include page-nav-height;
+    @include bp($md){
+      width: $af-page-nav-height;
+      background-size: $af-page-nav-height auto;
+    }
+    // remove arrow icon when no overflow
+    @include bp($nav-width-bp){ display: none; }
+  }
+
+  &__scroll-wrap {
+    overflow-x: auto;
+    overflow-y: hidden;
+    @include bp($nav-width-bp){ overflow: visible; }
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: $xxxl;
+    margin-left: auto;
+    margin-right: auto;
+    @include af-page-nav-height;
+    &:after {
+      // additional spacing for end of list so content can scroll past the overlaid arrow icon
+      content: '';
+      min-width: $af-page-nav-height-sm;
+      @include bp($md){ min-width: $af-page-nav-height; }
+      @include bp($nav-width-bp){ display: none; }
+    }
+  }
+  &__item {
+    display: flex;
+    flex: 1 0 auto;
+    border-right: 1px solid rgba($white,.15);
+    &:last-child { border-right: 0; }
+  }
+  &__link {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding-left: $s0;
+    padding-right: $s0;
+    font-family: $font-core;
+    font-weight: 600;
+    font-size: $s0;
+    //letter-spacing: .143em;
+    //text-transform: uppercase;
+    color: $white;
+    transition: background-color $transition-time ease;
+    white-space: nowrap;
+    &.is-current      { background-color: rgba($white,1); color: $j-red; }
+    .no-touch &:hover { background-color: rgba($white,1); color: $j-red;}
+  }
+
+  // js-sticky-nav style
+  &.is-stuck {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: $z-nav;
+    background-color: rgba($nav-color,0.9);
+  }
+}

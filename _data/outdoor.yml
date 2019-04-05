@@ -1,0 +1,106 @@
+
+- id: one
+  title: Wandern in Japan
+  page: outdoor
+  description: "Berge, Vulkanlandschaften, üppige Wälder, wilde Flüsse, ruhige Seen und Heiligtümer. Japan ist ein Wanderparadies. Die Wege sind ausgeschildert und auf Wanderkarten verzeichnet. Wer nicht alleine Luft schnappen will, schreitet mit einer der vielen organisierten Gruppen. Wandern ist Volkssport in Japan."
+
+  pois:
+
+    title:
+    items:
+
+      - title: Japanische Nord- und Südalpen
+        id: one-1
+        content: "Bewundern Sie die majestätischen Bergketten des Alpentals von Kamikochi und erkunden Sie das „Crow Castle“ Matsumoto-jo-Schloss. Wandern Sie vorbei an tiefen Schluchten und türkisfarbenen Seen im Hakuba Tal bis hin zum Chubu Sangaku Nationalpark oder über die 400 Jahre alte Straße im Kisoji Tal mit ihren 69 Relais."
+
+      - title: Fuji Hakone
+        id: one-2
+        content: "Der große Fuji-Hakone-Izu National Park umfasst mehr als 1200 km. Neben dem Fuji selbst, bietet der Park zahlreiche Ausflugsziele von heißen Quellen bis hin zu Museen und aufregenden Gärten. Boots- oder Seilbahnfahrten am Fuße des Hakone-jinja sind besonders bei Romatikern und Liebespaaren beliebt."
+
+      - title: Oirase Tal
+        id: one-3
+        content: "Im Towada Kohan-ko Noguchi National Park erstreckt sich der 14 km lange Fluss Oirase mit über 27 Wasserfällen. Der Wanderpfad entlang des Gewässers wird zum Outdoor-Erlebnis mit zahlreichen Wasserstrudeln und seltenen Pflanzenarten: erleben sie ein berauschendes Naturschauspiel. "
+
+      - title: Nakasendo
+        id: one-4
+        content: "Sie denken bei Handelswegen an staubige Straßen und Brücken? Hier entfaltet sich ein völlig neues Bild: So romantisch wanderten tatsächlich zur Edo-Zeit die Händler: Malerische Zypressenwälder, verträumte Bergdörfer und wahnsinnig schöne Panoramen - lassen Sie sich verzaubern."
+
+      - title: Der Riesenvulkan
+        id: one-5
+        content: "Japans größter Vulkan mit dem riesigen Krater im Aso-Kujū-Nationalpark zählt zu den aktiven Vulkanen. Durch seine Ausbrüche entstanden die bizarren Felsformationen in der Schlucht des Gokase Flusses. Die beliebte Sehenswürdigkeit mit den Manai-Wasserfällen lässt sich am besten vom Wasser aus erkunden. "
+
+      - title: Insel Yakushima
+        id: one-6
+        content: "Dieses Weltnaturerbe wird Sie begeistern, denn der wunderschöne Sandstrand ist Heimat zahlreicher Baby Meeresschildkröten, die von hier aus ins Leben schwimmen. Nehmen Sie sich Zeit für dieses besondere Naturwunder, das Sie so schnell nicht vergessen werden."
+
+      - title: Shiretoko National Park auf Hokkaido
+        id: one-7
+        content: "Die letzten Bären Japans erleben, Pinguinen beim Schwimmen zusehen, Seelöwen und seltene Vögel entdecken. Das Unesco Weltnaturerbe Shiretoko auf der Insel Hokkaido, ist mit seinen Seen, Bergen und seiner Fauna jederzeit ein Ausflug wert. "
+
+
+
+################################################################################
+
+- id: two
+  title: Ski & Snowboard
+  page: outdoor
+  description: "Für Pistenpiloten sind Japans Skiregionen längst kein Geheimtipp mehr. Garantierter Schnee, abwechslungsreiche Abfahrten, spektakuläre Naturwanderungen und anschließend in warmen Quellen oder mit Massagen relaxen. Dazu gibt es asiatische Gastfreundlichkeit, glamouröse Hotels und kulinarische Köstlichkeiten."
+
+  pois:
+
+    title:
+    items:
+
+      - title: Zao Onsen Ski Resort
+        id: two-1
+        caption: © JNTO
+        content: "Ob Trekking im Sommer oder Pulverschnee im Winter, hier kommen Naturliebhaber voll auf ihre Kosten. Das bezaubernde Ski-Resort auf der Insel Honshu wird Sie mit außergewöhnlichen Eislandschaften und verwunschenen Naturkunstwerken in seinen Bann ziehen."
+
+      - title: Japan´s World Ski Award Winner 2015 Niseko
+        id: two-2
+        content: "Eine große Après-Ski-Szene und sechs Monate Pulverschnee im Jahr mit langen Abfahrtspisten und der legendären Waldroute Strawberry Fields finden Sie hier. Umgeben von vier Ski Gebieten, die alle mit einem Ski-Pass befahren werden dürfen, ist es kein Wunder, dass 2015 Niseko als beste Ski-Region der Welt ausgezeichnet wurde. "
+
+      - title: Shiga Kogen Ski Resort
+        id: two-3
+        content: "Das größte Ski-Gebiet in Japan liegt inmitten der Präfektur Nagano mit 71 Ski-Liften und wunderschönen, langen Abfahrtspisten, die auf 21 kleine Resorts verteilt sind. Die Dörfer haben sich mit ihren urigen Gasthäusern, Shops und traditionellen Restaurants auf den Ski-Tourismus eingestellt, der bis Ende Mai andauert. "
+
+      - title: Sapporo Snow Festival
+        id: two-4
+        caption: © JNTO
+        content: "Riesige Skultpuren aus mehreren Tonnen Eis: Das Sapporo-Snow-Festival ist eines der spektakulärsten der Welt. Unfassbare Eiswelten werden in kürzester Zeit von Ausnahme-Künstlern zur Schau gestellt. Eine Highschool Klasse rief das Event 1950 ins Leben zu dem mittlerweile über 2 Millionen Besucher jährlich anreisen."
+
+
+
+################################################################################
+
+- id: three
+  title: Heiße Quellen
+  page: outdoor
+  description: "Die japanische Badekultur teilt sich in zwei Arten von Badehäuser: Onsen-Bäder werden mit Wasser aus den heißen Quellen gespeist, während in Sento-Bädern normales Leitungswasser verwendet wird. Für den Besuch gibt es strenge Regeln, wie das Textil- und Tattoo-Verbot sowie eine Trennung der Geschlechter."
+
+  pois:
+
+    title:
+    items:
+
+      - title: Dogo Onsen
+        id: three-1
+        caption: © JNTO
+        content: "Der berühmte Kurort beherbergt in einer riesigen Burg seine 3000 Jahre alten, sieben Quellen des Dôgo Onsen. Einer Legende nach heilte ein verwundeter Reiher seinen Fuß in einer der Quellen. Seither werden den Quellen heilende Kräfte nachgesagt. Besonders gefragt sind die begleitenden Teezeremonien."
+
+      - title: Arima Onsen
+        id: three-2
+        content: "Es fließen zwei Quellen durch den Ort, die goldene Thermal-Quelle, Ginsen genannt beinhaltet viele Saline und Eisen, was ihr eine besondere Farbe verleiht und die silberne Kinsen Quelle. Beide haben unterschiedlich heilende Wirkungen und werden gerne zur Linderung verschiedener Erkrankungen besucht. "
+
+      - title: Yufuin und Beppu auf der südlichen Hauptinsel Kyushu
+        id: three-3
+        content: "Aus den 'Höllen von Beppu' steigt der heiße Dampf der Quellen sichtlich über den Straßen auf, denn gleich zwei Quellen fließen durch die Stadt hindurch. Für einen Besuch in einem Onsen-Bad eignet sich der Kurort Yufuin. Mit Ausblick auf den Vulkan Yufu Dake laden die traditionellen Badehäuser zum Entspannen ein."
+
+      - title: Noboritesu Onsen bei Hokkaido
+        id: three-4
+        content: "Ein beliebter Ort für den Besuch von Thermal-Quellen auf Hokkaido sind die Onsen Badehäuser in Noboribetsu. Das milchweiße, mineralhaltige Quellwasser mit leicht schwefelhaltiger Note ist für seine gesunde Wirkung bekannt. Zahlreiche Hotels bieten zudem das natürliche Heilwasser in ihren Spas und Wellness-Bereichen an."
+
+
+
+
+################################################################################

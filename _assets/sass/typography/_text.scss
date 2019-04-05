@@ -1,0 +1,49 @@
+// general modifier styles for text
+
+.text {
+  // sizes
+  line-height: 1.35;
+  font-family: $font-title-01;
+  &--xxxl { font-size: $s2; }
+  &--xxl { font-size: $s1; }
+  &--xl  { font-size: $s1; }
+  &--lg  { font-size: $s1; }
+  &--sm  { font-size: $s-1; }
+  @include bp($lg) {
+    &--xxxl { font-size: $s4; }
+    &--xxl { font-size: $s3; }
+    &--xl  { font-size: $s2; }
+  }
+
+  // styles
+  &--italic       { font-style: italic; }
+  &--thin         { font-weight: 100; }
+  &--light        { font-weight: 200; }
+  &--normal       { font-weight: 500; }
+  &--bold         { font-weight: 600; }
+  &--bolder       { font-weight: 800; }
+  &--wide-kern    { letter-spacing: .15em; }
+  &--wide-kern-lg { letter-spacing: .3em; }
+  &--upper        { text-transform: uppercase; }
+  &--underline    { text-decoration: underline; }
+
+  // colours
+  &--white { color: $grey-lightest; }
+  &--black { color: $grey-dark; }
+  &--red { color: $j-red; }
+  &--blue { color: $af-blue; }
+  &--default {
+    color: $grey;
+    & .title { color: $grey-dark; }
+  }
+
+  // alignment
+  &--left   { text-align: left; }
+  &--right  { text-align: right; }
+  &--center { text-align: center; }
+  @include bp($lg) {
+    &--bp-left   { text-align: left; }
+    &--bp-right  { text-align: right; }
+    &--bp-center { text-align: center; }
+  }
+}

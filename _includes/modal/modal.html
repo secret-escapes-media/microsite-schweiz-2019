@@ -1,0 +1,41 @@
+
+{% assign modal-items = site.data.overview  %}
+
+<div class="js-modal modal is-closed">
+  <div class="js-close-modal modal__close"></div>
+
+
+
+
+  <div class="modal__container">
+
+    {% for item in modal-items %}
+      {% if item.pages %}
+        {% for item-page in item.pages %}
+          {% if item-page.id == page.id or item-page.id == 'all' %}
+
+            <div
+              class="modal__item modal__item--{{item.id}} is-closed"
+              id="modal-{{item.id}}"
+              {% if item.youtube-id %}data-video-id="{{item.youtube-id}}"{% endif %}
+              {% if item.page %}data-group-page="{{item.page}}"{% endif %}
+              {% if item.section %}data-group-section="{{item.section}}"{% endif %}>
+              <div class="modal__content">
+                {% if item.section %}
+                  {% include modal/content/photo.html %}
+                {% elsif item.youtube-id %}
+                  {% include modal/content/video.html %}
+                {% else %}
+                  {% include modal/content/text.html %}
+                {% endif %}
+              </div>
+            </div>
+
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</div>

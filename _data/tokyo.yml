@@ -1,0 +1,131 @@
+
+- id: one
+  title: Tempel und Kaiserpalast
+  page: tokyo
+  description: "Mit Leichtigkeit verbindet Tokio Tradition mit Moderne. Götterkult und Kaiserliebe sind hier kein Widerspruch. Sie sollten sich Zeit nehmen, um einige antike Schätze zu besichtigen. Auf den Kaiser werden Sie wahrscheinlich keinen Blick erhaschen können, aber es lohnt sich ein Spaziergang im Park des&nbsp;Palastes."
+
+  pois:
+
+    title:
+    items:
+
+      - title: Chiyoda und Kaiserpalast
+        id: one-1
+        caption: 	©SHIZUOKA Convention & Visitors Bureau/© JNTO
+        content: "Umrahmt von den schönsten Gärten Tokios liegt der Kaiserpalast. Zuvor der Sitz der Tokugawa-Shogune und nach der Meiji-Restauration 1868 Sitz des Kaisers, so wurde Tokio zur Hauptstadt. Nur zwei Tage im Jahr öffnet er seine Pforte für die Öffentlichkeit. Die Japaner verehren ihren Kaiser, doch ein strenges Hofprotokoll verbietet einen direkten Kontakt zum Volk."
+
+      - title: Senso-Ji Tempel
+        id: one-2
+        content: "Eine beliebte Sehenswürdigkeit in Tokio ist der Tempel Senso-Ji im Stadtteil Asakusa. Bereits 645 erbaut, zählt die buddhistische Kulturstätte zu den schönsten und ältesten der Stadt. Der Legende nach fanden zwei Brüder eine Statue im Fluss und errichteten eigens diese Weihestätte. 30 Millionen Besucher bitten hier jährlich um irdisches Glück."
+
+      - title: Kiyomizu Kannon-do
+        id: one-3
+        caption: © JNTO
+        content: "Inmitten des Ueno Parks liegt die buddhistische Tempelanlage Kiyomizu Kannon-do. Mit tiefroter Zinnoberfassade, ohne Nägel oder Schrauben errichtet, sollten Sie sich den einzigartig gewachsenen Kiefernzweig ansehen – die sogenannte Mondkiefer. Seit der Edo-Zeit gewachsen und in den Holzschnitten - Einhundert Ansichten von Edo - zu sehen."
+
+      - title: Meiji-Schrein
+        id: one-4
+        caption: © JNTO
+        content: "Dieser besondere Schrein wurde zu Ehren des Kaisers Meiji und seiner Gemahlin im Jahr 1920 errichtet. Das Areal des nationalen Heiligtums umfasst einen großen Park aus 120.000 Bäumen, die von Menschen aus allen Teilen Japans gespendet wurden. Mit einer Sportanlage und einer Gemäldegalerie lädt die grüne Oase Einheimische und Touristen zum Flanieren und Entdecken ein."
+
+      - title: Zojoji-Tempel
+        id: one-5
+        content: "Mit dem Tokio Tower im Hintergrund ergibt sich ein spannender Kontrast zu der Tempelanlage des Zōjō-ji Tempel mit seinen vielen Gräbern und Statuen. Es ist das älteste, noch erhaltene Gebäude aus der Gründerzeit. Zweimal täglich hören Sie die Daibonshon-Glocke: Mit ihrem Klang begleitet sie die Verstorbenen in die Unterwelt."
+
+
+
+################################################################################
+
+
+- id: two
+  title: Mode und Shopping
+  page: tokyo
+  description: "Selbst Modemuffel kommen hier ins Staunen: Ausgefallene Kreationen und farbenfrohe Looks treffen auf traditionelle Kimono-Garderobe. Nirgendwo sonst können sich die Menschen so persönlich mit Ihrer Kleidung präsentieren. Tokio ist die einfallsreichste und außergewöhnlichste Modemetropole der Welt."
+
+  pois:
+
+    title:
+    items:
+
+
+      - title: Ginza
+        id: two-2
+        caption: © JNTO
+        content: "Die elegante Einkaufsmeile in dem Stadtbezirk Ginza präsentiert Kunst und Kultur zugleich. Neben luxuriösen Boutiquen und Shops, befindet sich hier das Teikoku Gekijyou (kaiserliche Theater) und das Kabukiza (Japanische Theater) sowie zahlreiche Kunstgalerien und erstklassige Restaurants."
+
+      - title: Takeshita Dori Street
+        id: two-3
+        content: "Zum Staunen: Bunte Süßigkeitenshops mit riesiger rosa Zuckerwatte und süßen Crêpes, flippige Mode-Boutiquen, niedliche Plüschtiere sowie haushohe Videoleinwände zum Zuwinken heißen Sie hier Willkommen."
+
+
+
+################################################################################
+
+
+- id: three
+  title: Parks und Architektur
+  page: tokyo
+  description: "Zwischen Tokios Skyline und den Wahrzeichen der Mega-City finden Sie Ruheoasen gefüllt mit historischen Heiligtümern und Tempeln. Gehen Sie auf Entdeckungstour, es lohnt sich diese Parks zu durchstreifen und ab und an dem Straßentrubel zu entfliehen."
+
+  pois:
+
+    title:
+    items:
+
+      - title: Ueno Park
+        id: three-1
+        content: "Zentral gelegen und bekannt für seine Kirschblüten im Frühjahr, ein Besuch im Ueno Park lohnt zu jeder Jahreszeit. Es locken die größten Museen der Stadt und zahlreiche Statuen und Heiligtümer, aber vor allem sind es auch die niedlichen Pandas des ersten und größten Zoos Tokios, die in Erinnerung bleiben werden."
+
+      - title: Sumida Park
+        id: three-2
+        content: "Unweit des höchsten Funkturms der Welt, des Sky-Trees, erstreckt sich der Sumida Park und der gleichnamige Fluss. Mit einer Bootsfahrt lässt sich hier die Gegend entspannt bewundern. Sumidagawa Hanabi Taikai, das Feuerwerksspektakel Ende Juli, lässt sich bestens von der Kototoibashi-Brücke betrachten."
+
+      - title: Yoyogi Park
+        id: three-3
+        content: "Hier werden Sie sonntags zum Talent-Scout: Zahlreiche Elvis-Reinkarnationen und Tänzer unterschiedlicher Musikrichtungen bieten hier improvisierte Shows zur Freude der Besucher. Wer es etwas ruhiger mag, leiht sich ein Fahrrad und erkundet den Park und seine Kulturschätze fernab des Trubels."
+
+      - title: Tokio Skytree
+        id: three-4
+        content: "In 634 Metern Höhe genießen Sie atemberaubende Perspektiven auf Tokio. Zwei Aussichtsplattformen stehen zur Verfügung und bei guter Sicht erblicken Sie sogar den Mount Fuji in der Ferne. Besonders aufregend ist ein Besuch zum Sonnenuntergang."
+
+
+
+
+################################################################################
+
+
+
+- id: four
+  title: Tagesausflüge rund um Tokio
+  page: tokyo
+  description: "Als einfachstes Verkehrsmittel für Tagesausflüge bietet sich eine Fahrt mit dem Schnellzug 'Shinkansen' an. Die sauberen und pünktlichen Züge bringen Sie in kürzester Zeit in die abwechslungsreiche Umgebung von Tokio. Neben dem Fuji, dem höchsten Berg, warten weitere sehenswürdige Ausflugsziele auf&nbsp;Sie."
+
+  pois:
+
+    title:
+    items:
+
+      - title: Chichibu-Tama-Kai-Nationalpark
+        id: four-1
+        content: "Der Chichibu Tama Kai-Nationalpark mit seinem Onsen-Thermalbad ist ein beliebtes Tagesausflugsziel. Das Seoto-no-Yu Spa, am Fluss in der Akigawa-Schlucht, ist in üppige Natur eingebettet, lädt zum Wandern sowie Entspannen ein. Tipp: Für kulinarische Erlebnisse bietet das Restaurant im Park leckere Kaiseki-Menüs an."
+
+      - title: Nikko
+        id: four-2
+        content: "Unbedingt sehenswert ist die buddhistische Tempelanlage in Nikko, der kleinen Stadt in den Bergen nördlich von Tokio. Erkunden Sie den beeindruckenden Tempel Rinnô-ji – umgeben von malerischer Natur  – mit seinem Saal der drei Buddhas. Einmal im Jahr findet hier übrigens das größte Samurai-Festival mit ritterlichem Schauspiel und Zeremonien statt."
+
+      - title: Kamakura
+        id: four-3
+        content: "Einst japanische Hauptstadt, ist Kamakura heute vor allem eine Stadt mit viel Historie. Die große Tempelanlage und der riesige Bronze-Buddha mit seinen 13,35 Meter und 121 Tonnen Gewicht sind ein beliebtes Fotomotiv. Die Tokianer fahren vor allem zum Baden und Surfen an den nahen Strand von Kamakura."
+
+      - title: Izu-Halbinsel
+        id: four-4
+        content: "Das Paradies für Sporttaucher und Surfer liegt nordöstlich von Tokio und ist Teil des Fuji-Hakone-Izu-Nationalparks. Hier entdecken Sie den schönsten Strand Japans und die Tauchspots, die zum Unesco Global Geopark benannt wurden. Wer gerne asiatische Köstlichkeiten ausprobiert, sollte sich eine der Wasabi-Farmen ansehen."
+
+      - title: Mashiko
+        id: four-5
+        caption: © JNTO
+        content: "Zu den verborgenen Schätzen Japans zählt vor allem das traditionelle Kunsthandwerk. In Mashiko, einem der größten Zentren für Töpferkunst, wird in über 300 Öfen Keramik gebrannt. Die Manufakturen zeigen eindrucksvoll den Produktionsprozess und das Mashiko Sankokan Museum verzaubert mit seiner Ausstellung."
+
+
+
+################################################################################

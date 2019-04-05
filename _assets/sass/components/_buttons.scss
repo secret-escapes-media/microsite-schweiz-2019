@@ -1,0 +1,66 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: $s2 $s4;
+  min-width: 195px;
+  color: $white;
+  font-weight: 600;
+  font-size: $s3/2;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  line-height: 1.33;
+  border-radius: 3px;
+    margin-right: $s-1;
+  cursor: pointer;
+  @include transition;
+  &+& {
+    margin-left: 0;
+    margin-top: $s-1;
+  }
+  @include bp($lg){
+    &+& { margin-top: 0;  }
+  }
+  &--sm { padding: $s1 $s4; font-size: $s-2; }
+  &--lg { padding: $s3 $s8; font-size: $s-1; }
+  &--white { background-color: $white; color: $af-blue;
+    &:hover { background-color: $white; color: $af-blue; }
+  }
+  &--blue { background-color: $af-blue;
+    &:hover { background-color: $af-blue; }
+  }
+  &--orange { background-color: $orange;
+    &:hover { background-color: $orange-dark; }
+  }
+  &--outline {
+    color: $white;
+    border: 1px solid $white;
+    &:before {
+      // button border within original padding
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: inherit;
+    }
+    &:hover {
+      color: $j-red;
+      border: 1px solid $white;
+      background-color: $white;
+
+    }
+
+
+  }
+  &--solid {
+    background-color: $j-red; /* For browsers that do not support gradients */
+     color: $white;
+
+    &:hover { background-color: $j-red; background-image: none;}
+  }
+
+
+
+}

@@ -1,0 +1,46 @@
+// styles for the group drop down nav
+
+$group-nav-height: 150px;
+$group-nav-color:  $grey-darkest;
+
+.group-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: $z-nav;
+  display: flex;
+  justify-content: space-between;
+  height: $group-nav-height;
+  width: 100%;
+  background-color: rgba($group-nav-color,.5);
+  @include transition;
+  transform: scaleY(0);
+  transform-origin: top center;
+  @include bp($nav-width-bp){
+    .site-nav__item:hover & { transform: scaleY(1); }
+  }
+  &__item {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    @include background-attributes();
+  }
+  &__link {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: $s0;
+    font-family: $font-title-01;
+    font-size: $s2;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: $white;
+    background-color: rgba($group-nav-color,0.8);
+    @include transition;
+    &.is-current      { background-color: rgba($group-nav-color,0.25); }
+    .no-touch &:hover { background-color: rgba($group-nav-color,0.4); }
+  }
+}

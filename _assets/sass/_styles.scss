@@ -1,0 +1,244 @@
+// general styles for the project that wouldn't be a reuseable component
+
+.bg {
+  &--white { background-color: $white; }
+  &--grey-light { background-color: $grey-light; }
+  &--grey-lighter { background-color: $grey-lighter; }
+  &--grey-lightest { background-color: $grey-lightest; }
+  &--grey { background-color: $grey; }
+  &--grey-dark { background-color: $grey-dark; }
+  &--grey-darker { background-color: $grey-darker; }
+  &--grey-darkest { background-color: $grey-darkest; }
+  // images
+  &--fixed {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+
+.journey {
+  // Video section
+  &__video { z-index: $z-content-upper; }
+  &__video-section { position: relative; }
+  &__video-fade {
+    z-index: $z-content;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/icons/gradient--grey-darkest.png);
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+  }
+  // Photo sections
+  &__photo {}
+  &__photo-image {}
+  &__photo-text {}
+  &__photo-map {
+    width: 480px;
+  }
+  // Conclusion section
+  &__conclusion {
+    &-expert {
+      position: relative;
+      padding: $s4;
+      margin-left: $s4;
+      margin-top: $s4;
+      @include bp($xl){
+        margin: 0;
+      }
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      &:before {
+        top: 0;
+        left: 0;
+        background-image: url('../img/icons/frame-tl.svg');
+      }
+      &:after {
+        bottom: 0;
+        right: 0;
+        background-image: url('../img/icons/frame-br.svg');
+      }
+    }
+  }
+}
+
+
+
+/* ==========================================================================
+   alignment
+   ========================================================================== */
+
+
+
+
+.bv-mob-left {
+   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+ .bv-mob-left {
+   text-align: left;
+ }
+}
+
+
+
+/* ==========================================================================
+   Divider
+   ========================================================================== */
+
+
+.bv-link {
+  font-size: $s0;
+ }
+
+
+.bv-divider::after {
+  content: '.';
+  display: block;
+  line-height: 0;
+  color: $j-red;
+  font-size: 50px;
+  letter-spacing: -1px;
+  margin: 2px 0 25px -2px;
+
+  @include bp($lg){
+    content: '.';
+    display: block;
+    color: $j-red;
+    font-size: 65px;
+    line-height: 0;
+    letter-spacing: -1px;
+    margin: 4px 0 36px -2px;
+  }
+}
+
+
+
+.bv-arrow {
+
+    font-family: $font-title-01;
+    left: 50%;
+    width: 1.7em;
+    height: 1.7em;
+    margin: 0 auto;
+    background-repeat: no-repeat ;
+    background-image: url('../img/icons/arrow-left.svg');
+    background-size: auto (1.2em/.6);
+    background-position: 52% center;
+    transform: rotate(270deg);
+  }
+
+
+
+/* ==========================================================================
+   sections
+   ========================================================================== */
+
+.bv-section-border {
+
+  border-bottom: 4px solid $j-red;
+
+}
+
+.bv-section-text {
+
+  margin-top: $s15;
+  //margin-bottom: -30px;
+  padding-top: $s2!important;
+  padding-left: $s2!important;
+  margin-bottom: -15px!important;
+
+  @include bp($lg){
+    margin-top: $s19;
+    margin-bottom: -60px!important;
+  }
+
+  @include bp($xl){
+    margin-top: $s15;
+    margin-bottom: -60px!important;
+  }
+
+  @include bp($xxl){
+    //margin-top: 0;
+    padding-top: $s2!important;
+    padding-left: $s2!important;
+    margin-bottom: -60px!important;
+  }
+}
+
+
+.bv-copyright{
+  position:absolute;
+  bottom:5px;
+  left:10px;
+  text-shadow: (0 0 10px $black);
+}
+
+
+/* ==========================================================================
+   Parallax
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+  background-image: none!important;
+
+  &--black{
+    background-image: none!important;
+    background-color: #000;
+    }
+}
+
+.bv-parallax{
+      background-attachment: scroll;
+      background-size: cover;
+
+      }
+
+}
+
+
+
+
+/*************** offer tag for included tag *******************/
+
+.flight-tag {
+  position: absolute;
+  top: $s-2;
+  left: $s-2;
+  display: block;
+  width: 50%;
+  @include bp($sm){
+    top: $s0;
+    left: $s0;
+    width: 146px;
+  }
+}

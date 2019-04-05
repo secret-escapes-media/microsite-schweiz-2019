@@ -1,0 +1,72 @@
+---
+layout: default
+id: overview
+nav: true
+nav-order: 1
+nav-title: Überblick
+title: Eine neue Welt erleben
+
+banner:
+  title-sup: Eine neue Welt erleben
+  title: Japan
+  hero: 
+  size: banner-title--xxl
+
+
+intro: "Japan sollte ganz oben auf Ihrer Reiseliste für 2019 stehen, denn dieses Land wird Sie vom ersten Tag an faszinieren: Atemberaubende Naturwunder und einzigartige Kultur vermischt sich mit tiefer Tradition und verrückter Technik sowie modernster Architektur. Tauchen Sie in einen Kosmos voller Kontraste und entdecken Sie Ihren fünften Geschmackssinn. Von Deutschland aus täglich und komfortabel mit Air&nbsp;France&nbsp;erreichbar."
+
+
+
+
+---
+
+<!---- Intro ----->
+
+
+<div class="bg--red" style="background-image: url({{site.img}}/content/overview/.png); background-repeat:no-repeat; background-size:cover; background-position:left;">
+  <div class="container container--xxl vpad--xxl text--center text--white text--lg bv-mob-left">
+    {{page.intro}}<br><br>
+     <a href="javascript:void(0);" class="btn btn--outline js-open-modal " data-modal-group="video" data-modal-item="0">Video ansehen</a>
+  </div>
+</div>
+
+
+
+{% if page.page-nav %}{% include nav/page.html %}{% endif %}
+
+
+<!---- Regions ----->
+
+
+
+<div class="container vpad--xxl">
+  <h3 class="title title--lg text--center text--bold bv-divider">Japans Attraktionen erleben</h3>
+  <div class="space--xl"></div>
+  <div class="row row--xl-4-4-4">
+
+    {% for section in site.data[page.id] %}
+
+      <div class="col {% if section.id <= 4 %} col--6{% endif %}">
+
+      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/highlight{{section.id}}.jpg'); {{section.show}}">
+         <a href="javascript:void(0);" data-modal-item="{{section.id}}" data-modal-group="section" class="js-open-modal bg-img__link"></a>
+
+          <div class="bg-img__content">
+            <div class="title title--lg text--italic text--light">{{section.id}}.</div>
+            <div class="space--xxs">   </div>
+            <div class="title title--md">{{section.title}}</div>
+            <div class="text text--sm text--white text--light bv-copyright" >{{section.caption}}</div>
+          </div>
+          <div class="bg-img__bg-overlay text--white text text--sm"></div>
+        </div>
+
+      </div>
+
+    {% endfor %}
+
+  </div>
+</div>
+
+
+
+{% include page/promo-competition.html %}

@@ -1,0 +1,18 @@
+<div class="banner banner--default">
+  <div class="banner__wrap">
+    {% if page.banner.content %}
+      {{page.banner.content | liquify}}
+    {% else %}
+      <div class="container text--center">
+        {% if page.banner.title-sup %}<h2 class="sub-title sub-title text--normal vpad--sm container container--xl">{{page.banner.title-sup}}</h2>{% endif %}
+        <h1 class="banner-title {{page.banner.size}}">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+        {% if page.banner.title-sub %}<h2 class="sub-title sub-title text--normal vpad--sm container container--xl">{{page.banner.title-sub}}</h2>{% endif %}
+      </div>
+    {% endif %}
+  </div>
+  <div class="banner__bg bv-parallax" style="background-image: url('{{site.img}}/content/{{page.id}}/hero.jpg'); background-position: {{page.banner.hero}};">
+
+  </div>
+
+  {% include nav/site.html %}
+</div>

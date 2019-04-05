@@ -1,0 +1,45 @@
+
+
+{% assign nav-pages = site.html_pages | where: 'nav', 'true' | sort: 'nav-order' %}
+
+<div class="site-nav {% if include.theme == "footer" %} site-nav--footer{% endif %}">
+  <div class="site-nav__scroll-wrap">
+    <div class="site-nav__wrap">
+
+        {% for nav-page in nav-pages %}<span class="site-nav__item">
+
+          <a class="site-nav__link{% if nav-page.id == page.id or nav-page.id == page.group-parent %} is-current{% endif %}" href="{{site.baseurl}}{{nav-page.url}}">
+            {% if nav-page.nav-title %}
+              {{nav-page.nav-title}}
+            {% else %}
+              {{nav-page.title}}
+            {% endif %}
+          </a>
+
+          {% if nav-page.group-nav %}
+          {% if nav-page.group and include.theme != "footer" %}
+            {% include nav/site-group.html group-id=nav-page.id %}
+          {% endif %}
+          {% elsif nav-page.group-pages and include.theme != "footer" %}
+            <div class="group-nav">
+            {% for nav-group-page in nav-page.group-pages %}
+              {% assign group-page = site.html_pages | where: 'id', nav-group-page.id %}
+              {% for group-page in group-page %}<span class="group-nav__item" style="background-image: url('{{site.img}}/nav/{{group-page.id}}.jpg');">
+                <a class="group-nav__link{% if group-page.id == page.id %} is-current{% endif %}" href="{{site.baseurl}}{{group-page.url}}">{% if nav-group-page.title %}{{nav-group-page.title}}{% else %}{{group-page.title}}{% endif %}</a>
+              </span>{% endfor %}
+              {% endfor %}
+            </div>
+          {% elsif nav-page.group-sections and include.theme != "footer" %}
+            <div class="group-nav">
+            {% for group-section in nav-page.group-sections %}
+              <span class="group-nav__item" style="background-image: url('{{site.img}}/nav/{{group-section.id}}.jpg');">
+                <a class="group-nav__link" href="{{site.baseurl}}{{nav-page.url}}#{{group-section.id}}">{{group-section.title}}</a>
+              </span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+        </span>{% endfor %}
+    </div>
+  </div>
+</div>

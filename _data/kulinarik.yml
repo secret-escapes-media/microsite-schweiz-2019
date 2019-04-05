@@ -1,0 +1,71 @@
+
+- id: one
+  title: Kulinarik
+  page: kulinarik
+  description: "Die japanische Küche ist eine der gesündesten mit wenig Öl oder Gewürzen, dafür mit viel Liebe zum Detail. Die Japaner legen Wert darauf, den Eigengeschmack der Mahlzeiten hervorzuheben. Vom besten Sushi zu feinen Udon-Gerichten hin zu den berühmten Bentos – als Genussmensch kommen Sie voll auf Ihre Kosten. "
+
+  pois:
+
+    title:
+    items:
+
+      - title: Ramen - Nudelsuppen
+        id: one-1
+        content: "Die unglaublich schmackhaften Nudelsuppen sind ein beliebtes Gericht für unterwegs. In allen möglichen Varianten, vegetarisch oder mit Fleisch, Fisch und Meeresfrüchten werden sie frisch zubereitet und direkt am Tresen serviert. Die gelbe Farbe erhalten die Suppen durch das reichhaltige Alkali-Wasser."
+
+      - title: Teekultur
+        id: one-2
+        content: "Abwarten und Teetrinken? Die traditionelle Teezeremonie und der Genuß von Macha oder Grüntee verfolgt eher eine reinigende und meditative Wirkung. Seit über 1000 Jahren werden die Abläufe durch feste Regeln bestimmt. Darunter fällt auch die Sitzordnung und die Verwendung bestimmter Utensilien."
+
+      - title: Bento-Box
+        id: one-3
+        content: "Die japanische Lunchbox ist legendär für Japaner und wichtiger Bestandteil ihrer Esskultur. Die mundgerechten Stücke werden liebevoll angerichtet und dienen mit Reis, Gemüse und Sprossen als richtige Mahlzeit. Auch Reisbällchen, Omelettes, Teigtaschen mit Salat oder roher Fisch werden in den Kult-Boxen serviert. "
+
+      - title: Sushi
+        id: one-4
+        content: "Mehr als nur roher Fisch: Sushi. Die kleinen Häppchen sind wahre Geschmacksfeuerwerke und werden nach festen Regeln verspeist. Man beginnt mit der hellsten Farbe und endet mit der fettreichsten Füllung. Dazwischen werden frische Ingwer Stückchen gegessen, um sich immer wieder auf den neuen Geschmack vorzubereiten."
+
+      - title: Meeresfrüchte & Algen
+        id: one-5
+        content: "Als Insel ist Japan von einem Ozean umgeben und doch ist es die einzige Insel, auf der fast alles Essbare aus dem Meer auf den Tisch kommt. Von Seetang, über Algen und sogar der giftige Kugelfisch. Einige Zutaten werden heute allerdings in Tanks gezüchtet, darunter die Nori Alge und der Seetang."
+
+      - title: Tofu
+        id: one-6
+        content: "Die Sojabohnen-Pastete werden Sie in Japan in verschiedenen Variationen erleben. Getrocknet, gefroren oder fermentiert und gebraten. Die eher geschmacksneutrale Speise bekommt erst durch ihre Weiterverarbeitung den passenden Pfiff. Mit Teig ummantelt und gefüllt werden auch süßliche Speisen daraus zubereitet."
+
+
+
+################################################################################
+
+- id: two
+  title: Kultur
+  page: kulinarik
+  description: "Japan wacht mit strengen Augen über sein kulturelles Erbe. Nicht nur Touristen strömen in die alten Theater, zu den Sumo-Kämpfen oder in ein Onsen. Die Japaner lieben ihre Kultur und doch sind sie auch stolz auf ihre neue, moderne und einzigartige elektronische Unterhaltungsindustrie."
+
+  pois:
+
+    title:
+    items:
+
+      - title: Geisha Kultur in Kyoto
+        id: two-1
+        caption: © JNTO
+        content: "Früh übt sich. Die harte und strenge Ausbildung zu einer Geisha beginnt schon im Kindesalter. Die Damen der schönen Künste erleben eine regelrechte Renaissance und bieten Unterhaltung auf hohem Niveau. Die Blumen-Damen mit dem Kimono und dem professionellen zarten Make-up sind vor allem in Kyoto anzutreffen."
+
+      - title: Tempel und Religion
+        id: two-2
+        content: "Die Mehrheit der Japaner fühlt sich sowohl dem Shinto als auch dem Buddhismus verbunden und besänftigt die Götter in den wunderschönen Tempeln regelmäßig mit kleinen und großen Geschenken. Im Alltag spiegelt sich durch die tägliche Routine, durch den Verhaltenskodex und in vielen Ritualen dieser spirituelle Geist wider."
+
+      - title: Sumo
+        id: two-3
+        caption: © JNTO
+        content: "Der traditionelle Ringsport mit den schlichten Regeln ist ein Muss, den man live gesehen haben sollte. Die Sumotori oder Rikishi - wie die Ringer genannt werden, müssen den Gegner dabei über die Linie des äußeren Kreises drücken. Die beliebten Wettkämpfe können 6-mal im Jahr, vor allem in Osaka und Tokio, erlebt werden."
+
+      - title: Badekultur
+        id: two-4
+        content: "Auch die Badekultur folgt bestimmten Regeln, so wird textilfrei und nach Geschlechtern getrennt gebadet. Zudem sind in den meisten Badehäusern Tattoos und manchmal auch Piercings streng verboten. Es hilft, sich vor einem Besuch über die jeweiligen Regeln der Häuser zu informieren. Das Badehandtuch wird übrigens am Beckenrand abgelegt oder auf dem Kopf getragen und Badeschuhe sind in vielen Badehäusern Pflicht."
+
+      - title: "Video- und Arcadespiele"
+        id: two-5
+        caption: © JNTO
+        content: "Vor allem die Jugend strömt in Automaten-Spielhallen, die es überall gibt. Hier können auch Sie sich an Autorennen, virtuellen Karate-Kämpfen oder einfach einem Geschicklichkeitsspiel versuchen.  Und bei der Gelegenheit: Schauen Sie doch zu, mit was für einem Tempo die Japaner diese Spiele absolvieren."

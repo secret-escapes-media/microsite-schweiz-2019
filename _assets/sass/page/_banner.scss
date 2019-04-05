@@ -1,0 +1,174 @@
+// the title banner that appears at the top of every page. sometimes animated bgs
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 525px;
+  color: $white;
+  background-color: $grey;
+  @include bp($lg){
+    height: 92%;
+    min-height: 650px;
+  }
+  &__wrap {
+    position: relative;
+    z-index: $z-overlay;
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    @include page-padding;
+  }
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content;
+    background-color: $grey-dark;
+    overflow: hidden;
+    @include background-attributes;
+  }
+  &__nav {
+    & .site-nav {
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: $z-nav;
+    }
+    &--top .site-nav {
+      top: 0;
+      bottom: auto;
+    }
+    &--bottom .site-nav {
+      bottom: 0;
+      top: auto;
+    }
+  }
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include background-attributes;
+    background-image: url('../img/banner/components/vignette.png');
+    background-color: rgba($grey-darkest,0.2);
+    z-index: $z-content-upper;
+    pointer-events: none;
+  }
+  &__logo {
+    width: 160px;
+    max-width: 90%;
+    margin: auto auto $s4;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+    }
+    &--nikon {
+      width: 140px;
+      background-image: url('../img/banner/components/iamnikon.svg');
+      &:after { padding-top: 21.36%; }
+      @include bp($md){ width: 220px; }
+      @include bp($xxl){ width: 260px; }
+      @include bp($xxxl){ width: 300px; }
+    }
+    &--iamchasing {
+      width: 420px;
+      margin-bottom: 0;
+      background-image: url('../img/banner/components/iamchasing.svg');
+      &:after { padding-top: 9.44%; }
+    }
+  }
+}
+
+// BANNER ARTICLE - For journey and guide pages
+.banner--article {
+  height: 100%;
+  .banner {
+    &__wrap {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &__half{
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background-color: rgba($grey-darkest,0.5);
+      padding: $s4;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      @include bp($xxl){
+        background-color: rgba($grey-darkest,0.8);
+        width: 50%;
+      }
+    }
+    &__content {
+      width: 100%;
+      &-inner {
+        width: 100%;
+        @include bp($xxxl){
+          width: 580px;
+          float: right;
+        }
+      }
+    }
+    &__breadcrumbs {
+      position: relative;
+      &-link {
+        color: $white;
+      }
+      &:before {
+        @include transition();
+        content: "";
+        width: 16px;
+        height: 15px;
+        position: absolute;
+        display: inline-block;
+        left: -$s4;
+        top:50%;
+        margin-top: -8px;
+        background-image: url(../img/icons/arrow-small-left.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &:hover {
+        &:before { left: -$s5; }
+      }
+    }
+  }
+}
+
+
+// BANNER CAROUSEL
+.banner--carousel {
+  text-align: center;
+  min-height: 90%;
+  .banner {
+    &__wrap { pointer-events: none; }
+    &__slide {
+      transition: all 8000ms cubic-bezier(0,0,1,1);
+      @include background-attributes();
+      background-size: auto 100%;
+      background-position: center;
+    }
+  }
+  .owl-item.active .banner__slide {
+    background-size: auto 115%;
+  }
+}
