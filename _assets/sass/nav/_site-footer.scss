@@ -1,14 +1,14 @@
 // moidifiers for the site footer theme, is passed as an option on include
 
-$footer-nav-color: $grey-lighter;
+$footer-nav-color: $grey;
 
 .site-nav {
   &--footer {
     background-color: rgba($footer-nav-color,.5);
     &:before { background-image: url("../img/icons/nav-arrow-footer.svg"); }
   }
-  &--footer &__link { color: rgba($grey-dark, .8);
+  &--footer &__link { color: rgba($white, .8);
     &.is-current      { background-color: rgba($footer-nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($white,1);  color: rgba($grey-dark, 1); }
+    .no-touch &:hover { background-color: rgba($white,.1);  color: rgba($white, 1); }
   }
 }

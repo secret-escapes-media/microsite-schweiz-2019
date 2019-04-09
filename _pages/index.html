@@ -7,9 +7,9 @@ nav-title: Überblick
 title: Eine neue Welt erleben
 
 banner:
-  title-sup: Eine neue Welt erleben
-  title: Japan
-  hero: 
+  title-sub: Eine neue Welt erleben
+  title: Schweiz
+  hero:
   size: banner-title--xxl
 
 
@@ -23,10 +23,10 @@ intro: "Japan sollte ganz oben auf Ihrer Reiseliste für 2019 stehen, denn diese
 <!---- Intro ----->
 
 
-<div class="bg--red" style="background-image: url({{site.img}}/content/overview/.png); background-repeat:no-repeat; background-size:cover; background-position:left;">
-  <div class="container container--xxl vpad--xxl text--center text--white text--lg bv-mob-left">
-    {{page.intro}}<br><br>
-     <a href="javascript:void(0);" class="btn btn--outline js-open-modal " data-modal-group="video" data-modal-item="0">Video ansehen</a>
+<div class="" style="background-image: url({{site.img}}/content/overview/.png); background-repeat:no-repeat; background-size:cover; background-position:left;">
+  <div class="container container--xxl vpad--xxl text--center text--lg bv-mob-left">
+    <h3 class="title title--lg text--center text--bold bv-divider">{{page.banner.title-sub}}</h3><br>{{page.intro}}<br><br>
+     <a href="javascript:void(0);" class="btn btn--solid js-open-modal " data-modal-group="section" data-modal-item="0">Video ansehen</a>
   </div>
 </div>
 
@@ -38,10 +38,10 @@ intro: "Japan sollte ganz oben auf Ihrer Reiseliste für 2019 stehen, denn diese
 <!---- Regions ----->
 
 
-
-<div class="container vpad--xxl">
+<div class=" bg--light">
+<div class="container vpad--xxl bg--light">
   <h3 class="title title--lg text--center text--bold bv-divider">Japans Attraktionen erleben</h3>
-  <div class="space--xl"></div>
+  <div class="space--xxxl"></div>
   <div class="row row--xl-4-4-4">
 
     {% for section in site.data[page.id] %}
@@ -66,7 +66,4 @@ intro: "Japan sollte ganz oben auf Ihrer Reiseliste für 2019 stehen, denn diese
 
   </div>
 </div>
-
-
-
-{% include page/promo-competition.html %}
+</div>

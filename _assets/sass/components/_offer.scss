@@ -45,7 +45,7 @@ $offer-max-width: 600px;
     //text-indent: -1.5em;
     font-size: 0.85em;
     line-height: 1.5;
-    color: $j-red;
+    color: $bv-red;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 600;
@@ -74,7 +74,7 @@ $offer-max-width: 600px;
     min-width: $circle-height;
     min-height: $circle-height;
     margin-left: $s-3;
-    border: 1px solid $j-red;
+    border: 1px solid $bv-red;
     border-radius: $circle-height;
     background-repeat: no-repeat;
     background-image: url('../img/icons/arrow-right.svg');
@@ -94,7 +94,7 @@ $offer-max-width: 600px;
       color: #fff;
       font-weight: 400;
       line-height: $circle-height;
-      background-color: $j-red;
+      background-color: $bv-red;
       border-radius: $circle-height;
     }
   }
@@ -111,7 +111,7 @@ $offer-max-width: 600px;
     background-color: $grey-lighter;
   }
   &__price {
-    color: $j-red;
+    color: $bv-red;
     font-size: $s2;
     font-weight: 400;
     line-height: 1;

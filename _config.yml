@@ -1,5 +1,5 @@
 # Site settings
-title: Japan
+title: Schweiz
 client:
   name: Eine neue Welt erleben
   link: "http://bit.ly/2ASgXFX"
@@ -10,10 +10,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/japan" # the subpath of your site, e.g. /blog/
-img:     "/de/japan/_assets/img"
-css:     "/de/japan/_assets/css"
-js:      "/de/japan/_assets/js"
+baseurl: "/de/schweiz" # the subpath of your site, e.g. /blog/
+img:     "/de/schweiz/_assets/img"
+css:     "/de/schweiz/_assets/css"
+js:      "/de/schweiz/_assets/js"
 
 
 # Build settings

@@ -13,7 +13,7 @@
   &--xl     { font-size: $s6; line-height: 1.15; }
   &--lg     { font-size: $s5; line-height: 1; }
   &--md     { font-size: $s4; line-height: 1.1; }
-  &--sm     { font-size: $s3; line-height: 1.35; }
+  &--sm     { font-size: $s3; line-height: 1.15; }
   &--xs     { font-size: $s2; line-height: 1.2; }
   &--xxs    { font-size: $s2; line-height: 1.2; }
   &--xxxs   { font-size: $s0; line-height: 1.45; }
@@ -37,16 +37,17 @@
   font-family: $font-title-01;
   font-weight: 600;
   line-height: 1.15;
+  font-size: $s3; // default size
   //text-transform: uppercase;
   //letter-spacing: .33rem;
   @include font-smoothing;
   margin-bottom: 5px;
 
-  font-size: $s4; // default size
   &--lg     { font-size: $s6; }
   &--sm     { font-size: $s0; }
+
   @include bp($lg){
-    font-size: $s5; // default size
+    font-size: $s4; // default size
     &--lg     { font-size: $s5; }
     &--sm     { font-size: $s1; }
   }
@@ -89,41 +90,48 @@
 
   // custom banner headline
   font-family: $font-title-01;
-  font-weight: 500;
+  font-weight: 100;
   line-height: 1;
   //hyphens: auto;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   @include font-smoothing;
   font-size: $s7;
-  letter-spacing: -.05rem;
+  letter-spacing: .5rem;
 
-    &--xxl   { font-size: $s9; }
+  &--lg   { font-size: $s10; }
+    &--xxl   { font-size: $s11; }
 
   @include bp($sm){
     //letter-spacing: .1rem;
     font-size: $s8;
 
+    &--lg   { font-size: $s10; }
       &--xxl   { font-size: $s11; }
   }
   @include bp($md){
     //letter-spacing: .1rem;
     font-size: $s9;
 
+    &--lg   { font-size: $s10; }
       &--xxl   { font-size: $s12; }
   }
   @include bp($lg){
     font-size: $s11;
 
+    &--lg   { font-size: $s11; }
       &--xxl   { font-size: $s12; }
   }
   @include bp($xxl){
     font-size: $s11;
 
+    &--lg   { font-size: $s12; }
       &--xxl   { font-size: $s13; }
   }
   @include bp($xxxl){
-    font-size: $s12;
+    font-size: $s10;
 
+      &--md   { font-size: $s11; }
+      &--lg   { font-size: $s11; }
       &--xxl   { font-size: $s14; }
   }
 

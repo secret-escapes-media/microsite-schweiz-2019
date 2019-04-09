@@ -157,7 +157,7 @@ $modaltransition-distance: 4em;
 
   &__content {
     background-color: $white;
-    border-bottom: 4px solid $j-red;
+    border-bottom: 4px solid $bv-red;
     padding: $s2 $s4;
     @include bp($lg){
       //position: fixed;
@@ -170,7 +170,7 @@ $modaltransition-distance: 4em;
 
   }
   &__content-toggle {
-    background-color: $j-red;
+    background-color: $bv-red;
     padding: 1em;
     position: absolute;
     left: 0;

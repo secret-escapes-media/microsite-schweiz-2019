@@ -112,21 +112,21 @@
 
 .bv-divider::after {
   content: '.';
-  display: block;
+  //display: block;
   line-height: 0;
-  color: $j-red;
+  color: $bv-red;
   font-size: 50px;
-  letter-spacing: -1px;
-  margin: 2px 0 25px -2px;
+  //letter-spacing: 5px;
+  margin: 0 0 36px 5px;
 
   @include bp($lg){
     content: '.';
-    display: block;
-    color: $j-red;
+    //display: block;
+    color: $bv-red;
     font-size: 65px;
     line-height: 0;
-    letter-spacing: -1px;
-    margin: 4px 0 36px -2px;
+    //letter-spacing: 1px;
+    margin: 0 0 36px 5px;
   }
 }
 
@@ -154,7 +154,7 @@
 
 .bv-section-border {
 
-  border-bottom: 4px solid $j-red;
+  border-bottom: 4px solid $bv-red;
 
 }
 

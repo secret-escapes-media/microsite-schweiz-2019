@@ -46,7 +46,7 @@
       border-radius: inherit;
     }
     &:hover {
-      color: $j-red;
+      color: $bv-red;
       border: 1px solid $white;
       background-color: $white;
 
@@ -55,10 +55,10 @@
 
   }
   &--solid {
-    background-color: $j-red; /* For browsers that do not support gradients */
+    background-color: $bv-red; /* For browsers that do not support gradients */
      color: $white;
 
-    &:hover { background-color: $j-red; background-image: none;}
+    &:hover { background-color: $bv-red; background-image: none;}
   }
 
 

@@ -2,7 +2,7 @@
 
 .text {
   // sizes
-  line-height: 1.35;
+  line-height: 1.2;
   font-family: $font-title-01;
   &--xxxl { font-size: $s2; }
   &--xxl { font-size: $s1; }
@@ -30,7 +30,7 @@
   // colours
   &--white { color: $grey-lightest; }
   &--black { color: $grey-dark; }
-  &--red { color: $j-red; }
+  &--red { color: $bv-red; }
   &--blue { color: $af-blue; }
   &--default {
     color: $grey;

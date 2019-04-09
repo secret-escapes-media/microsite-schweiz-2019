@@ -1,0 +1,89 @@
+---
+layout: journey
+id: sightseeing
+title: Sightseeing & Insights
+nav: true
+nav-order: 5
+nav-title: Sightseeing & Insights
+
+
+banner:
+  title-sub: Nach Japan mit
+  title:  Sightseeing & Insights
+  title-sub:
+  hero: 58% center
+
+
+page-nav:
+  - id: one
+    title: Basel
+  - id: two
+    title: St. Gallen
+
+
+
+intro: "Wo sonst könnten Sie zwischen romantischen Boutique-Städten und atemberaubender Naturkulisse Kunst auf Weltklasse-Niveau erleben? Es erwarten Sie großartige Sammlungen, außergewöhnliche Ausstellungen und fantastische Events – die nicht nur Kunstliebhaber in den Bann ziehen.   "
+
+
+
+
+---
+
+
+
+<div class="bg--blue">
+  <div class="container container--xxl vpad--xxl text--center text--white text--lg bv-mob-left">
+    {{page.intro}}<br><br>
+      <a href="http://bit.ly/2W1X1t9 " class="btn btn--outline" >Flüge nach Tokio</a>
+      <a href="http://bit.ly/2FMTppp" class="btn btn--outline" >Flüge nach Osaka</a>
+  </div>
+</div>
+
+
+
+{% if page.page-nav %}{% include nav/af-page.html %}{% endif %}
+
+
+
+<!-- LENS SECTION -->
+
+{% for feature in page.features %}
+
+  <div  id="{{feature.id}}">
+
+    <div class="text  {% cycle '', 'text--white text--left' %} text--md text--bold text--left " style="background-image:url({{site.img}}/content/{{page.id}}/{{feature.id}}.jpg); background-position: center center; background-repeat:no-repeat; background-size:cover">
+      <div class="container  vpad--xxl ">
+          <div class="container--xl text--xl ">
+            <div class="title title--lg text--light">{{feature.title}}</div>
+              <div class="space--lg "></div>
+            <div>{{feature.description}}</div>
+            <div class="space--lg"></div>
+            {{feature.cta}}
+          </div>
+      </div>
+    </div>
+
+
+    <div class="container  ">
+
+          {% for poi in feature.pois %}
+<div class="space--xl"></div>
+                <div class="bob  {% cycle '', 'bob--swap' %} ">
+                  <div class="bob__img">
+                    <div class="bg-img bg-img--16-9" style="background-image:url({{poi.img}}); background-position: right center; background-repeat:no-repeat; background-size:cover" ></div>
+                  </div>
+                  <div class="bob__text text--black">
+                    <h3 class="title title--sm text--bold">{{poi.subtitle}}</h3>
+                    <p class="text--md">{{poi.description-short}}</p>
+                    <div class="space--lg"></div>
+                    <a href="{{poi.cta}}"  class="btn btn--blue" >Weitere Infos</a>
+                  </div>
+              </div>
+              <div class="space--xl"></div>
+            {% endfor %}
+
+    </div>
+
+  </div>
+
+    {% endfor %}

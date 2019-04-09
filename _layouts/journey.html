@@ -13,39 +13,37 @@ layout: default
 
 
 <!-- JOURNEY -->
-
+{% if page.page-nav %}{% include nav/page.html %}{% endif %}
 
 {% for section in site.data[page.id] %}
 
 
 
-<div class="wp" id="{{section.id}}"></div>
-
+<div  id="{{section.id}}"></div>
 <div class="bv-parallax" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; background-position:top center;">
-  <div class="container vpad--xxl ">
-      <div class="row row--justify row--xl-6-6 row--no-gutters ">
-          <div class="col bg--white boxpad--lg bv-section-text">
-            <h3 class="title title--md text--bold bv-divider">{{section.title}}</h3>
+  <div class="container vpad--xxxl ">
+      <div class="row row--xl-6-6 row--no-gutters text--xl text--light text--white">
+          <div class="col col--xl-8">
+            <h3 class="title title--xxl text--bold bv-divider">{{section.title}}</h3>
+            <div class="space--xs"></div>
             <p>{{section.description}}</p>
           </div>
       </div>
+
+      <div class="space--xxl"></div>
     </div>
 </div>
 
-
-
 <div class="container vpad--xs ">
-
   <div class="space--lg"></div>
     <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters">
 
     {% for poi in section.pois.items %}
         <div class="col">
-          <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{poi.id}}.jpg);">
-            <div class="text text--sm text--white text--light bv-copyright" >{{poi.caption}}</div>
-          </div>
+          <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{poi.id}}.jpg);"> </div>
           <div class="space--md"></div>
-          <h5 class="title title--xs text--bold">{{poi.title}}</h5>
+          <h5 class="title title--sm text--light text--red">{{poi.title}}</h5>
+          <div class="space--xxxs"></div>
           <p>{{poi.content}}</p>
           <div class="space--xl"></div>
         </div>
@@ -54,6 +52,21 @@ layout: default
 
     </div>
   </div>
-
 <div class="space--lg "></div>
 {% endfor %}
+
+
+{% if page.teaser %}
+<div  id="{{page.teaser.id}}"></div>
+<div class="bv-parallax" style="background-image:url({{site.img}}/content/{{page.id}}/teaser.jpg); background-repeat:no-repeat; background-size:cover; background-position:top center;">
+  <div class="container container--xxl vpad--xxxl text--left text--white text--xl ">
+    <h3 class="title title--xl text--left text--bold bv-divider">{{page.teaser.title}}</h3>
+    <div class="space--xs"></div>
+    <p>{{page.teaser.description}}</p>
+      <div class="space--xl"></div>
+      <a href="{{page.teaser.link}}" target="_blank" class="btn btn--outline">{{page.teaser.cta}}</a>
+  </div>
+
+</div>
+
+{% endif %}

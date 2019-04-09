@@ -185,7 +185,7 @@
   show: display:none
   orientation: landscape
   page: overview # group for whole page
-  section: video # group for section of page
+  section: one # group for section of page
   pages: # modal required on these pages
     - id: overview
       youtube-id: gqYzEv_AqYM

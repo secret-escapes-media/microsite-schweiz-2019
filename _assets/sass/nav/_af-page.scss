@@ -3,7 +3,7 @@
 $af-page-nav-height:    54px;
 $af-page-nav-height-sm: 44px;
 $nav-width-bp:       640px;
-$nav-color:          $j-red;
+$nav-color:          $bv-red;
 
 
 // global site nav height
@@ -98,8 +98,8 @@ $nav-color:          $j-red;
     color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($white,1); color: $j-red; }
-    .no-touch &:hover { background-color: rgba($white,1); color: $j-red;}
+    &.is-current      { background-color: rgba($white,1); color: $bv-red; }
+    .no-touch &:hover { background-color: rgba($white,1); color: $bv-red;}
   }
 
   // js-sticky-nav style
