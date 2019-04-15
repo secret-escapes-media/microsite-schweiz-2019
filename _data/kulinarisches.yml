@@ -1,6 +1,7 @@
 
 - id: one
   title: Genf
+  cta: http://bit.ly/2IbGTSh
   description: "Zwischen majestätischer Alpenkulisse und türkisblauem See liegt Genf – die westlichste Stadt der Schweiz. 'Stadt des Friedens' wird der europäische Hauptsitz der UNO mit internationaler, humanitärer Tradition und weltstädtischem Flair an der Rhone auch genannt. Die kleine Metropole hat viel zu bieten, hier können Sie es entdecken."
 
   pois:
@@ -20,7 +21,7 @@
       - title: Angelausflug auf dem Genfer See
         id: one-3
         caption:
-        content: "Wie wäre es mit einem Abstecher auf den Genfer See? Von Mitte Januar bis Ende November bieten sich die besten Bedingungen zum Fangen von Süßwasser Delikatessen wie Seesaiblinge, Felchen und Hechte, Barsche und Seeforellen. Auch Muscheln und Flusskrebse sind in dem artenreichen Gewässer zu finden. Die Angelausrüstung und das Boot sind im Preis genauso inbegriffen wie der idyllische Panoramablick über den See."
+        content: "Wie wäre es mit einem Abstecher auf den Genfer See? Von Mitte Januar bis Ende November bieten sich die besten Bedingungen zum Fangen von Süßwasser-Delikatessen wie Seesaiblingen, Felchen und Hechten, Barschen und Seeforellen. Auch Muscheln und Flusskrebse sind in dem artenreichen Gewässer zu finden. Die Angelausrüstung und das Boot sind im Preis genauso inbegriffen wie der idyllische Panoramablick über den See."
 
       - title: Schokoladen-Tour
         id: one-4
@@ -38,6 +39,7 @@
 
 - id: two
   title: Lausanne
+  cta: http://bit.ly/2KsFWqy
   description: "Umgeben von Weinbergen und errichtet auf drei Hügeln mit malerischem Blick auf den Genfersee – so präsentiert sich das dynamische Lausanne. Die 'Olympische Hauptstadt' ist florierender Wirtschaftsstandort sowie beliebte Universitätsstadt und wird Sie nicht nur mit fantasievoller Architektur beeindrucken. "
 
   pois:
@@ -56,7 +58,7 @@
 
       - title: Sommer-Festivals
         id: two-3
-        content: "Zahlreiche Musikfestivals finden während des ganzen Jahres in Lausanne und Umgebung statt. Anspruchsvolle Darbietungen in geselliger Atmosphäre sorgen – mit dem Genfer See als Kulisse –, für unvergessene Event-Erlebnisse. Allein 450 Aktivitäten und Vorführungen aus Theater und Musik, Tanz, Zirkus sowie Film stehen bei dem Festival de la Cité auf der Tagesordnung. "
+        content: "Zahlreiche Musikfestivals finden während des ganzen Jahres in Lausanne und Umgebung statt. Anspruchsvolle Darbietungen in geselliger Atmosphäre sorgen – mit dem Genfer See als Kulisse – für unvergessene Event-Erlebnisse. Allein 450 Aktivitäten und Vorführungen aus Theater und Musik, Tanz, Zirkus sowie Film stehen bei dem Festival de la Cité auf der Tagesordnung. "
 
       - title: Süße Lausanne-Tour
         id: two-4
@@ -64,7 +66,7 @@
 
       - title: Lausanne à table
         id: two-5
-        content: "Gourmets kommen von April bis Oktober in Lausanne ins Schwärmen: Talentierte Köche und Produzenten traditioneller Spezialitäten bitten beim Festival 'Lausanne à table' zu Tisch. Vom Picknick mit kulinarischen Überraschungen, Candle-Light-Dinners an unterschiedlichsten Orten bis zu Street-Food-Events wird hier Genießern außergewöhnliches geboten. "
+        content: "Gourmets kommen von April bis Oktober in Lausanne ins Schwärmen: Talentierte Köche und Produzenten traditioneller Spezialitäten bitten beim Festival 'Lausanne à table' zu Tisch. Vom Picknick mit kulinarischen Überraschungen, Candle-Light-Dinners an unterschiedlichsten Orten bis zu Street-Food-Events wird hier Genießern Außergewöhnliches geboten. "
 
 
 

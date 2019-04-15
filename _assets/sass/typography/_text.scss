@@ -2,13 +2,15 @@
 
 .text {
   // sizes
-  line-height: 1.2;
+  line-height: 1.45;
   font-family: $font-title-01;
-  &--xxxl { font-size: $s2; }
-  &--xxl { font-size: $s1; }
-  &--xl  { font-size: $s1; }
-  &--lg  { font-size: $s1; }
-  &--sm  { font-size: $s-1; }
+
+  &--xxxl { font-size: 1.9rem; line-height: 1.6; letter-spacing: 0; }
+  &--xxl { font-size: 1.6rem; line-height: 1.5; letter-spacing: 0; }
+  &--xl  { font-size: 1.25rem; line-height: 1.6; letter-spacing: 0; }
+  &--lg  { font-size: 1.15rem; letter-spacing: 0; }
+  &--md  { font-size: 1rem; letter-spacing: 0; }
+  &--sm  { font-size: .9rem; }
   @include bp($lg) {
     &--xxxl { font-size: $s4; }
     &--xxl { font-size: $s3; }
@@ -41,9 +43,11 @@
   &--left   { text-align: left; }
   &--right  { text-align: right; }
   &--center { text-align: center; }
+  &--justify { text-align: justify; }
   @include bp($lg) {
     &--bp-left   { text-align: left; }
     &--bp-right  { text-align: right; }
     &--bp-center { text-align: center; }
+    &--bp-justify { text-align: justify; }
   }
 }

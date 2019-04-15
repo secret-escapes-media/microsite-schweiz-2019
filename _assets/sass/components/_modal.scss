@@ -14,7 +14,7 @@ $modaltransition-distance: 4em;
 // disable scroll and blur background when modal is active
 .disable-scroll {
   overflow: hidden;
-  
+
   & >:not(.modal) {
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
@@ -127,7 +127,9 @@ $modaltransition-distance: 4em;
 
 // SPECIFIC MODIFIERS FOR VIDEO MODAL
 .modal-video {
+  max-width: $xxxl;
   &__iframe {
+
     @include transition();
     position: absolute;
     top: 0;
@@ -139,7 +141,7 @@ $modaltransition-distance: 4em;
 .modal-photo {
   //padding: $icon-size-sm 0;
   text-align: center;
-  max-width: $xxl;
+  max-width: $xl;
   /*@include bp($lg){
     padding: $icon-size 0 14em;
   }*/

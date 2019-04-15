@@ -1,35 +1,36 @@
 
 - id: one
   title: Basel
-  description: "Zwischen majestätischer Alpenkulisse und türkisblauem See liegt Genf – die westlichste Stadt der Schweiz. 'Stadt des Friedens' wird der europäische Hauptsitz der UNO mit internationaler, humanitärer Tradition und weltstädtischem Flair an der Rhone auch genannt. Die kleine Metropole hat viel zu bieten, hier können Sie es entdecken."
+  cta: http://bit.ly/2D51HXg
+  description: "Unweit der Grenzen zu Frankreich und Deutschland liegt die Stadt Basel. Die älteste Universitätsstadt und letzte Wohnstätte des Gelehrten Erasmus blickt auf eine lange Tradition zurück. Historische Bauwerke in der mittelalterlichen Altstadt bilden einen facettenreichen Kontrast zur modernen Architektur. Zahlreiche Museen, der romantische Rhein und feine Restaurants versprechen einen kultivierten City-Trip."
 
   pois:
 
     title:
     items:
 
-      - title: Weinkultur La Cave de Genève
+      - title: Architektur-Hotspot
         id: one-1
         caption:
-        content: "Der Winzerverein La Cave de Genève verbindet seine Weinlinien mit der Genfer Geschichte und lokalen Kultur. Weit über die Kantonsgrenzen hinaus ist der Weinanbau rund um die historischen Lagen des Genfer Sees bekannt. Probieren Sie bei der Verkostung die besten Tropfen der unterschiedlichen Rebsorten und erfahren Sie eine wahre Fülle an Aromen."
+        content: "Basel ist ein Hotspot der urbanen Stadtentwicklung und zeigt eindrucksvoll wie sich ehemalige Industrie-Areale zu pulsierenden Quartieren entwickeln. Gleich drei Touren bietet die Stadt rund um das Thema Architektur an. Die kostenlosen Broschüren leiten Sie wie ein Stadtführer zu den Gebäuden und Sehenswürdigkeiten, die Sie selbst bequem zu Fuß oder mit der ÖV erreichen."
 
-      - title: Wochenmarkt in Carouge
+      - title: Leben wie ein Basler
         id: one-2
-        content: "Der ideale Ort, um regionale Erzeugnisse zu erkunden ist der Wochenmarkt in Carouge. Das kleine Städtchen am anderen Ufer der Arve ist bekannt für Obst und Gemüse, fangfrischen Fisch, Käse und Fleisch von den Landwirten der Umgebung. Die Produkte aus Kunsthandwerk sowie regionaltypischer Wein und Honig eignen sich perfekt als Souvenir für Ihre Lieben zu Hause. "
+        content: "Lassen Sie sich von Einheimischen die Stadt erklären und schließen Sie gleichzeitig neue Bekanntschaften. Das steckt hinter dem Konzept der local heroes Citytouren. Das Leben der Basler zu historischen Zeiten oder Geschichten rund um die Stadt erleben Sie bei originellen szenischen Rundgängen durch Basel und den thematisch geführten Stadttouren, die Ihnen geboten werden."
 
-      - title: Angelausflug auf dem Genfer See
+      - title: Papierschöpfen mit der Hand
         id: one-3
         caption:
-        content: "Wie wäre es mit einem Abstecher auf den Genfer See? Von Mitte Januar bis Ende November bieten sich die besten Bedingungen zum Fangen von Süßwasser Delikatessen wie Seesaiblinge, Felchen und Hechte, Barsche und Seeforellen. Auch Muscheln und Flusskrebse sind in dem artenreichen Gewässer zu finden. Die Angelausrüstung und das Boot sind im Preis genauso inbegriffen wie der idyllische Panoramablick über den See."
+        content: "Papier schöpfen, mit Federn und Tinte schreiben und Texte auf alten Schreibmaschinen verfassen, das alles erleben Sie in der Basler Papiermühle. Historische Techniken an einem authentischen Ort – als eines der wenigen Museen in Europa pflegt die Basler Papiermühle die praktische Ausübung des Druckgewerbes. Sie erhalten spannende Einblicke in eine längst vergessene Handwerkskunst. ."
 
-      - title: Schokoladen-Tour
+      - title: Street-Art in Basel
         id: one-4
         caption:
-        content: "Bei einem süßen Rundgang durch historische und moderne Sehenswürdigkeiten lernen Sie die Schweizer Schokoladenproduktion in Genf und ihre 200-jährige Geschichte kennen. Auf der Chocolate-Flavours-Tour erleben Sie die ‘Nahrung der Götter’ in außergewöhnlichen Kombinationen mit ungewöhnlichen Zutaten und kommen dem Geschmack der preisgekrönten Schokoladenkreationen auf die Spur."
+        content: "Basel ist ein temporäres Kultur-Zuhause für Kreative, denn die Grenzen zwischen Tradition und moderner Kunst sind fließend. Die Stadt hat sich einen Namen in der Graffiti-Street-Art-Szene gemacht. Im bunt bemalten Bentley können Sie auf der Urban-Art-Experience-Tour, Fassaden und Gegenstände mit Motiven nationaler und internationaler Graffiti-Künstler bewundern."
 
-      - title: Fondue in den Bains des Pâquis
+      - title: Quelle der Erholung
         id: one-5
-        content: "Die Bains des Pâquis, unweit des spritzigen Wahrzeichens Jet d’Eau, sind nicht nur im Sommer beliebter Anziehungspunkt für Sonnenanbeter. Die Badeanstalt mit Restaurant bietet einen unvergleichlichen Blick über den Genfer See. Im Winter kommen Liebhaber des Fondues hier auf ihre Kosten während Sie den Lichterglanz im Wasser bestaunen."
+        content: "Der Rhein ist eine Quelle der Erholung und Inspiration für Sonnenanbeter, Spaziergänger, Studenten sowie Urlauber und Geschäftsleute. Für Besucher der Stadt bietet sich ein einzigartiges Erlebnis: einmal in dem historischen Gewässer zu schwimmen und die Schönheit der historischen Altstadt mit ihren Sehenswürdigkeiten aus einer anderen Perspektive zu entdecken. "
 
 
 
@@ -38,7 +39,8 @@
 
 - id: two
   title: St. Gallen
-  description: "Umgeben von Weinbergen und errichtet auf drei Hügeln mit malerischem Blick auf den Genfersee – so präsentiert sich das dynamische Lausanne. Die 'Olympische Hauptstadt' ist florierender Wirtschaftsstandort sowie beliebte Universitätsstadt und wird Sie nicht nur mit fantasievoller Architektur beeindrucken. "
+  cta: http://bit.ly/2P3H4iS
+  description: "St. Gallen, die historische Perle zwischen Bodensee und Appenzeller-Land, lockt mit zahlreichen kulinarischen Spezialitäten, einer reichen Textilgeschichte und berühmten UNESCO-Weltkulturstätten. Ein umfangreiches Kulturleben mit vielfältigen Angeboten und aufregenden Outdoor-Aktivitäten machen den Reiz der Region rund um St. Gallen aus und die Stadt zu einem attraktiven Reiseziel."
 
   pois:
 
@@ -46,25 +48,25 @@
     items:
 
 
-      - title: Wein & Weinbars
+      - title: UNESCO Weltkulturebe
         id: two-1
-        content: "Gleich zwei Weinanbaugebiete umschließen Lausanne: Das UNESCO-Welterbe Lavaux und La Côte. Kein Wunder also, dass Lausanne die Hauptstadt des 'Great Wine Capitals Global Network (GWC)' ist. So kommen Sie in den Genuss, die Weinsorten der verschiedenen Anbaugebiete in den Weinkellern und Weinbars der Stadt zu verköstigen. "
+        content: "Eines der bedeutendsten geistigen Zentren des europäischen Abendlandes ist der Stiftsbezirk St. Gallen. Die reich verzierte barocke Kathedrale mit ihren gut erhaltenen Fresken sowie die Bibliothek (mit einem beeindruckenden Bestand von original erhaltenen Handschriften) zählen zum UNESCO-Weltkulturerbe. Ein 90-minütiger Rundgang führt Sie durch das Gelände und die Bauwerke des Stiftbezirks."
 
-      - title: Sommer-Festivals
+      - title: Textilstadt von Weltruf
         id: two-2
-        content: "Zahlreiche Musikfestivals finden während des ganzen Jahres in Lausanne und Umgebung statt. Anspruchsvolle Darbietungen in geselliger Atmosphäre sorgen – mit dem Genfer See als Kulisse –, für unvergessene Event-Erlebnisse. Allein 450 Aktivitäten und Vorführungen aus Theater und Musik, Tanz, Zirkus sowie Film stehen bei dem Festival de la Cité auf der Tagesordnung. "
+        content: "Auf ein reiches textiles Erbe schaut die Stadt St. Gallen zurück. Bis heute verarbeiten große Designer wie Chanel, Dior oder Armani Spitzen und Stoffe aus St. Gallen. Die Kreationen werden anschließend auf den Laufstegen der Welt präsentiert. Erleben Sie den Pioniergeist und die Tradition der Textilstadt und erkunden Sie die Textilgeschichte von St. Gallen. "
 
-      - title: Süße Lausanne-Tour
+      - title: Prunkvolle Erker
         id: two-3
-        content: "Begeben Sie sich auf eine geführte Sightseeing-Tour durch Lausanne: Schlendern Sie vorbei an Denkmälern und Parks, malerischen Szenevierteln und erkunden die moderne sowie historische Architektur. Eine Stippvisite bei bekannten Chocolatiers rundet die gelungene Stadtführung mit der Verkostung exklusiver Schokolade ab. "
+        content: "Mit Fokus auf ein besonderes Detail führt Sie die Besichtigungstour 'Enge Gassen' durch die historische Altstadt von St. Gallen. Gut erhalten sind die mittelalterlichen Fassaden mit ihrem aufwendig verarbeiteten und reich verzierten Wandschmuck. Exotische und tierische Motive prägen die Kunstwerke der ca. 111 Erker, die Sie während des Stadtrundgangs erkunden. "
 
-      - title: Lausanne à table
+      - title: "Die etwas andere Tour: E-Bike"
         id: two-4
-        content: "Gourmets kommen von April bis Oktober in Lausanne ins Schwärmen: Talentierte Köche und Produzenten traditioneller Spezialitäten bitten beim Festival 'Lausanne à table' zu Tisch. Vom Picknick mit kulinarischen Überraschungen, Candle-Light-Dinners an unterschiedlichsten Orten bis zu Street-Food-Events wird hier Genießern außergewöhnliches geboten. "
+        content: "Mit dem Mini-E-Bike kulturelle, historische und architektonische Sehenswürdigkeiten erkunden. Rund elf Stationen werden auf der Tour mit dem Mini-E-Bike angefahren, dabei lernen Sie die verschiedenen Stadtquartiere von St. Gallen kennen. Teilnehmer schätzen die bequemen Velo-Touren (wie das Fahrrad in der Schweiz genannt wird) und die fachkundige Führung zu den besonderen Spots der Stadt."
 
-      - title: UNESCO Weltkulturerbe Lavaux
+      - title: "Aus einer anderen Zeit: Das älteste Theater"
         id: two-5
-        content: "Das größte zusammenhängende Weinanbaugebiet der Schweiz umfasst 800 Hektar Rebfläche und zählt zum UNESCO Weltkulturerbe. Neben der Verköstigung erstklassiger Weinsorten bietet sich Lavaux generell für einen ganzen Tagesausflug an. Tipp: Genießen Sie von den Weinterrassen aus einen fantastischen Panoramablick über die Landschaft und den Lac Léman – wie die Franzosen den Genfer See nennen. "
+        content: "Das älteste bespielte Theater der Schweiz befindet sich in St. Gallen. Bereits im Mittelalter, angeregt durch zwei Benediktinermönche, wurde hier Theater gespielt. Über 200 Mal im Jahr hebt sich der Vorhang für Oper, Tanz, Schauspiel und Musicals. Seit 2010 werden zudem in der neu gestalteten Lokremise Produktionen und Inszenierungen mit eher ungewöhnlichen Kulissen aufgeführt."
 
 
 

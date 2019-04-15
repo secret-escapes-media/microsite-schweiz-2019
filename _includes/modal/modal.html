@@ -1,11 +1,11 @@
 
-{% assign modal-items = site.data.overview  %}
+{% assign modal-items = site.data.overview | concat: site.data.modal.videos %}
 
 <div class="js-modal modal is-closed">
   <div class="js-close-modal modal__close"></div>
 
-
-
+  <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
+  <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="prev"></div>
 
   <div class="modal__container">
 
@@ -25,8 +25,7 @@
                   {% include modal/content/photo.html %}
                 {% elsif item.youtube-id %}
                   {% include modal/content/video.html %}
-                {% else %}
-                  {% include modal/content/text.html %}
+                
                 {% endif %}
               </div>
             </div>

@@ -21,6 +21,7 @@ function modalOpen(event, modalId){
   if (event) {
     // CLICKED : If modal was fired from a click event
 
+
     event.preventDefault();
     var modalItemID   = $(event.currentTarget).data('modal-item'),
         modalItem = '.modal__item--' + modalItemID;
@@ -29,12 +30,14 @@ function modalOpen(event, modalId){
     if ( $(event.currentTarget).attr('data-modal-group') ) {
       var modalGroup = $(event.currentTarget).data('modal-group');
       modal.addClass('modal--carousel').addClass('modal--carousel-' + modalGroup);
-    }
 
+    }
+console.log(modalItem);
     // update video
     if( $(modalItem).attr('data-video-id') ){
       var modalVideoId = $(modalItem).data('video-id');
       $('#modal-video__'+modalItemID).attr('src', 'https://www.youtube.com/embed/' + modalVideoId + '?enablejsapi=1&controls=1&rel=0&showinfo=0&modestbranding=1');
+
     }
 
   } else {
@@ -225,7 +228,3 @@ $(document).on('keyup', function(e) {
     }
   }
 });
-
-
-
-

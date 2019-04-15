@@ -13,7 +13,7 @@ banner:
   size: banner-title--xxl
 
 
-intro: "Japan sollte ganz oben auf Ihrer Reiseliste für 2019 stehen, denn dieses Land wird Sie vom ersten Tag an faszinieren: Atemberaubende Naturwunder und einzigartige Kultur vermischt sich mit tiefer Tradition und verrückter Technik sowie modernster Architektur. Tauchen Sie in einen Kosmos voller Kontraste und entdecken Sie Ihren fünften Geschmackssinn. Von Deutschland aus täglich und komfortabel mit Air&nbsp;France&nbsp;erreichbar."
+intro: "Historische Städte mit weltstädtischem Flair – Schweizer Boutique Towns sind wie geschaffen für eine kleine Auszeit vom Alltag. Auf kleinstem Raum erwarten Sie Natur, Kunst und Kultur im Überfluss, dazu ein kosmopolitisches Laisser-faire zwischen Tradition und Moderne. Unvergessen bleiben die Momente der originellen City-Touren, bei denen Sie die Städte wie Einheimische erleben. "
 
 
 
@@ -24,12 +24,12 @@ intro: "Japan sollte ganz oben auf Ihrer Reiseliste für 2019 stehen, denn diese
 
 
 <div class="" style="background-image: url({{site.img}}/content/overview/.png); background-repeat:no-repeat; background-size:cover; background-position:left;">
-  <div class="container container--xxl vpad--xxl text--center text--lg bv-mob-left">
-    <h3 class="title title--lg text--center text--bold bv-divider">{{page.banner.title-sub}}</h3><br>{{page.intro}}<br><br>
-     <a href="javascript:void(0);" class="btn btn--solid js-open-modal " data-modal-group="section" data-modal-item="0">Video ansehen</a>
+  <div class="container container--lg vpad--xl text--justify text--lg ">
+    {{page.intro}}
+     <!--<a href="javascript:void(0);" class="btn btn--solid js-open-modal " data-modal-group="section" data-modal-item="0">Video ansehen</a>-->
   </div>
 </div>
-
+<div class="space--xs"></div>
 
 
 {% if page.page-nav %}{% include nav/page.html %}{% endif %}
@@ -40,22 +40,20 @@ intro: "Japan sollte ganz oben auf Ihrer Reiseliste für 2019 stehen, denn diese
 
 <div class=" bg--light">
 <div class="container vpad--xxl bg--light">
-  <h3 class="title title--lg text--center text--bold bv-divider">Japans Attraktionen erleben</h3>
+  <h3 class="title title--lg text--center text--bold bv-divider">Entdecken Sie die Boutique Towns der Schweiz</h3>
   <div class="space--xxxl"></div>
   <div class="row row--xl-4-4-4">
 
     {% for section in site.data[page.id] %}
 
-      <div class="col {% if section.id <= 4 %} col--6{% endif %}">
+      <div class="col">
 
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/highlight{{section.id}}.jpg'); {{section.show}}">
+      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/overview/highlight{{section.id}}.jpg'); ">
          <a href="javascript:void(0);" data-modal-item="{{section.id}}" data-modal-group="section" class="js-open-modal bg-img__link"></a>
 
           <div class="bg-img__content">
-            <div class="title title--lg text--italic text--light">{{section.id}}.</div>
-            <div class="space--xxs">   </div>
-            <div class="title title--md">{{section.title}}</div>
-            <div class="text text--sm text--white text--light bv-copyright" >{{section.caption}}</div>
+            <div class="title title--md text--bold">{{section.title}}.</div>
+            <div class="text text--sm text--white text--light " >{{section.caption}}</div>
           </div>
           <div class="bg-img__bg-overlay text--white text text--sm"></div>
         </div>

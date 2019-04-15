@@ -106,7 +106,7 @@
 
 
 .bv-link {
-  font-size: $s0;
+  //font-size: $s0;
  }
 
 
@@ -226,6 +226,44 @@
 }
 
 
+/* ==========================================================================
+   Social Media
+   ========================================================================== */
+
+.bv-swiss-footer{
+  border-top: 1px solid #333;
+  //border-bottom: 1px solid #333;
+  //padding: 10px 0;
+
+  width: 30px;
+
+margin: 0 auto;
+}
+
+.bv-social-media--wrap{
+  //display: flex;
+  list-style: none;
+
+}
+
+.bv-sm {
+  text-align: center;
+  list-style: none;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  border-radius: 50%;
+  padding: 3px;
+  margin: 0 auto;
+  position: relative;
+  left: -25px;
+
+  &--fb{  content: url( "../img/icons/sm-facebook.svg" ); background-color: $white; margin: 3px;}
+  &--tw{  content: url( "../img/icons/sm-twitter.svg" ); background-color: $white; margin: 3px; }
+  &--in{  content: url( "../img/icons/sm-instagram.svg" ); background-color: $white; margin: 3px; }
+  &--nl{  content: url( "../img/icons/sm-pen-tool.svg" ); background-color: $white; margin: 3px; }
+
+}
 
 
 /*************** offer tag for included tag *******************/

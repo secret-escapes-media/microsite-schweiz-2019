@@ -34,9 +34,9 @@ layout: default
     </div>
 </div>
 
-<div class="container vpad--xs ">
+<div class="container vpad--xs text--center">
   <div class="space--lg"></div>
-    <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters">
+    <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters text--left">
 
     {% for poi in section.pois.items %}
         <div class="col">
@@ -51,6 +51,7 @@ layout: default
       {% endfor %}
 
     </div>
+    <a href="{{section.cta}}" target="_blank" class="btn btn--solid">Weitere Infos </a>
   </div>
 <div class="space--lg "></div>
 {% endfor %}
@@ -65,6 +66,7 @@ layout: default
     <p>{{page.teaser.description}}</p>
       <div class="space--xl"></div>
       <a href="{{page.teaser.link}}" target="_blank" class="btn btn--outline">{{page.teaser.cta}}</a>
+      <a href="javascript:void(0);" class="btn btn--outline js-open-modal journey__video"  data-modal-item="{{page.id}}-video">Video ansehen</a>
   </div>
 
 </div>
