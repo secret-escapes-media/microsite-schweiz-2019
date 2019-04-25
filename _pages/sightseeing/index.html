@@ -10,7 +10,7 @@ nav-title: Originelle Stadtrundgänge
 banner:
   title-sub: Neue Perspektiven mit Lebensgefühl
   title: Originelle Stadtrundgänge
-  hero:
+  hero: 60% center
 
 
 page-nav:
@@ -21,68 +21,9 @@ page-nav:
 
 
 
-intro: "Langweilige Stadt-Touren gehören nicht zum Repertoire von Basel und St. Gallen. Hier machen Sie Bekanntschaft mit Einheimischen, lassen sich historische Zeiten szenisch neu präsentieren oder fahren bequem mit dem Mini-E-Bike durch die Stadt. Wir stellen Ihnen die spannenden Stadtrundgänge und kulturellen Highlights vor."
+intro: "Langweilige Stadt-Touren gehören nicht zum Repertoire von Basel und St. Gallen. Hier machen Sie Bekanntschaft mit Einheimischen, lassen sich historische Zeiten szenisch neu präsentieren oder fahren bequem mit dem Mini-E-Bike durch die Stadt. Wir stellen Ihnen die spannenden Stadt&shy;rundgänge und kulturellen Highlights&nbsp;vor."
 
 
 
 
 ---
-
-
-
-<div class="bg--blue">
-  <div class="container container--xxl vpad--xxl text--center text--white text--lg bv-mob-left">
-    {{page.intro}}<br><br>
-      <a href="http://bit.ly/2W1X1t9 " class="btn btn--outline" >Flüge nach Tokio</a>
-      <a href="http://bit.ly/2FMTppp" class="btn btn--outline" >Flüge nach Osaka</a>
-  </div>
-</div>
-
-
-
-{% if page.page-nav %}{% include nav/af-page.html %}{% endif %}
-
-
-
-<!-- LENS SECTION -->
-
-{% for feature in page.features %}
-
-  <div  id="{{feature.id}}">
-
-    <div class="text  {% cycle '', 'text--white text--left' %} text--md text--bold text--left " style="background-image:url({{site.img}}/content/{{page.id}}/{{feature.id}}.jpg); background-position: center center; background-repeat:no-repeat; background-size:cover">
-      <div class="container  vpad--xxl ">
-          <div class="container--xl text--xl ">
-            <div class="title title--lg text--light">{{feature.title}}</div>
-              <div class="space--lg "></div>
-            <div>{{feature.description}}</div>
-            <div class="space--lg"></div>
-            {{feature.cta}}
-          </div>
-      </div>
-    </div>
-
-
-    <div class="container  ">
-
-          {% for poi in feature.pois %}
-<div class="space--xl"></div>
-                <div class="bob  {% cycle '', 'bob--swap' %} ">
-                  <div class="bob__img">
-                    <div class="bg-img bg-img--16-9" style="background-image:url({{poi.img}}); background-position: right center; background-repeat:no-repeat; background-size:cover" ></div>
-                  </div>
-                  <div class="bob__text text--black">
-                    <h3 class="title title--sm text--bold">{{poi.subtitle}}</h3>
-                    <p class="text--md">{{poi.description-short}}</p>
-                    <div class="space--lg"></div>
-                    <a href="{{poi.cta}}"  class="btn btn--blue" >Weitere Infos</a>
-                  </div>
-              </div>
-              <div class="space--xl"></div>
-            {% endfor %}
-
-    </div>
-
-  </div>
-
-    {% endfor %}

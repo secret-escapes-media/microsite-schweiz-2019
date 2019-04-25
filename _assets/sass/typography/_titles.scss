@@ -9,15 +9,16 @@
   margin-left: -2px;
 
   &--xxxl   { font-size: $s8; line-height: 1.033; }
-  &--xxl    { font-size: $s7; line-height: 1.075; }
+  &--xxl    { font-size: $s7; line-height: 1.1; }
   &--xl     { font-size: $s6; line-height: 1.15; }
-  &--lg     { font-size: $s5; line-height: 1; }
+  &--lg     { font-size: $s5; line-height: 1.1; }
   &--md     { font-size: $s4; line-height: 1.1; }
   &--sm     { font-size: $s3; line-height: 1.15; }
   &--xs     { font-size: $s2; line-height: 1.2; }
   &--xxs    { font-size: $s2; line-height: 1.2; }
   &--xxxs   { font-size: $s0; line-height: 1.45; }
-  @include bp($lg){
+
+  @include bp($md){
     &--xxxl   { font-size: $s9; }
     &--xxl    { font-size: $s8; }
     &--xl     { font-size: $s7; }
@@ -27,6 +28,18 @@
     &--xs     { font-size: $s3; }
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
+  }
+
+  @include bp($lg){
+    &--xxxl   { font-size: $s10; }
+    &--xxl    { font-size: $s9; }
+    &--xl     { font-size: $s8; }
+    &--lg     { font-size: $s7; }
+    &--md     { font-size: $s6; }
+    &--sm     { font-size: $s5; }
+    &--xs     { font-size: $s4; }
+    &--xxs    { font-size: $s3; }
+    &--xxxs   { font-size: $s2; }
   }
 
 }
@@ -95,28 +108,28 @@
   //hyphens: auto;
   //text-transform: uppercase;
   @include font-smoothing;
-  font-size: $s7;
-  letter-spacing: .5rem;
+  font-size: $s6;
+  letter-spacing: .03rem;
 
-  &--lg   { font-size: $s10; }
-    &--xxl   { font-size: $s11; }
+  &--lg   { font-size: $s8; }
+  &--xxl   { font-size: $s9; }
 
   @include bp($sm){
     //letter-spacing: .1rem;
-    font-size: $s8;
+    font-size: $s7;
 
-    &--lg   { font-size: $s10; }
-      &--xxl   { font-size: $s11; }
+    &--lg   { font-size: $s9; }
+    &--xxl   { font-size: $s10; }
   }
   @include bp($md){
     //letter-spacing: .1rem;
-    font-size: $s9;
+    font-size: $s8;
 
-    &--lg   { font-size: $s10; }
-      &--xxl   { font-size: $s12; }
+    &--lg   { font-size: $s9; }
+      &--xxl   { font-size: $s11; }
   }
   @include bp($lg){
-    font-size: $s11;
+    font-size: $s10;
 
     &--lg   { font-size: $s11; }
       &--xxl   { font-size: $s12; }
@@ -128,10 +141,9 @@
       &--xxl   { font-size: $s13; }
   }
   @include bp($xxxl){
-    font-size: $s10;
+    font-size: $s12;
 
-      &--md   { font-size: $s11; }
-      &--lg   { font-size: $s11; }
+      &--lg   { font-size: $s13; }
       &--xxl   { font-size: $s14; }
   }
 

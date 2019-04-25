@@ -1,8 +1,8 @@
 // styles for the microsite nav
 
 $site-nav-height:    56px;
-$site-nav-height-sm: 44px;
-$nav-width-bp:       940px;
+$site-nav-height-sm: 50px;
+$nav-width-bp:       1055px;
 $nav-color:          $white;
 
 
@@ -20,7 +20,7 @@ $nav-color:          $white;
   position: relative;
   z-index: $z-nav;
   width: 100%;
-  background-color: rgba($nav-color,.85);
+  background-color: rgba($nav-color,.92);
   text-align: center;
 
   // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
@@ -70,8 +70,8 @@ $nav-color:          $white;
     &:after {
       // additional spacing for end of list so content can scroll past the overlaid arrow icon
       content: '';
-      min-width: $site-nav-height-sm/2;
-      @include bp($md){ min-width: $site-nav-height/2; }
+      min-width: $site-nav-height-sm/4;
+      @include bp($md){ min-width: $site-nav-height/4; }
       @include bp($nav-width-bp){ display: none; }
     }
   }
@@ -89,15 +89,15 @@ $nav-color:          $white;
     padding-left: $s0;
     padding-right: $s0;
     font-family: $font-title-01;
-    font-weight: 300;
-    font-size: 15px;
-    letter-spacing: .1em;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .07em;
     //text-transform: uppercase;
-    color: $grey-dark;
+    color: $black;
     transition: background-color $transition-time ease;
     white-space: nowrap;
     &.is-current      { background-color: rgba($white,1); color: $bv-red; font-weight: 500; letter-spacing: .04em;}
-    .no-touch &:hover { background-color: rgba($nav-color,1); color: $bv-red; }
+    .no-touch &:hover { background-color: rgba($bv-red,1); color: $white; }
   }
 
   // js-sticky-nav style

@@ -105,9 +105,6 @@
    ========================================================================== */
 
 
-.bv-link {
-  //font-size: $s0;
- }
 
 
 .bv-divider::after {
@@ -240,28 +237,34 @@
 margin: 0 auto;
 }
 
-.bv-social-media--wrap{
-  //display: flex;
-  list-style: none;
 
+.bv-sm--wrap{
+  position: relative;
+  display: inline-block;
+  //padding: $s2 $s4;
+  min-width: 135px;
+  font-weight: 600;
+  font-size: $s3/2;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  line-height: 1.33;
+  border-radius: 3px;
+    margin-right: $s-3;
 }
 
 .bv-sm {
-  text-align: center;
-  list-style: none;
-  height: 22px;
-  width: 22px;
+  //text-align: left;
+  height: 26px;
+  width: 26px;
   display: flex;
   border-radius: 50%;
-  padding: 3px;
-  margin: 0 auto;
-  position: relative;
-  left: -25px;
+  padding: 4px;
 
-  &--fb{  content: url( "../img/icons/sm-facebook.svg" ); background-color: $white; margin: 3px;}
-  &--tw{  content: url( "../img/icons/sm-twitter.svg" ); background-color: $white; margin: 3px; }
-  &--in{  content: url( "../img/icons/sm-instagram.svg" ); background-color: $white; margin: 3px; }
-  &--nl{  content: url( "../img/icons/sm-pen-tool.svg" ); background-color: $white; margin: 3px; }
+  &--fb{  content: url( "../img/icons/sm-facebook.svg" ); background-color: $grey-dark; margin: 3px;}
+  &--tw{  content: url( "../img/icons/sm-twitter.svg" ); background-color: $grey-dark; margin: 3px; padding: 5px;}
+  &--in{  content: url( "../img/icons/sm-instagram.svg" ); background-color: $grey-dark; margin: 3px; padding: 5px;}
+  &--nl{  content: url( "../img/icons/sm-pen-tool.svg" ); background-color: $grey-dark; margin: 3px; }
 
 }
 

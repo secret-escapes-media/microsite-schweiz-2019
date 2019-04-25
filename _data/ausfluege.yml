@@ -2,7 +2,8 @@
 - id: one
   title: Bern
   cta: http://bit.ly/2G9WG0e
-  description: "Umschlungen von der Aare-Schlaufe liegt Bern, die Hauptstadt der Schweiz. Gäste aus aller Welt zieht es vor allem zur imposanten UNESCO-gekrönten Altstadt mit ihrem mittelalterlichen Charme. Weit über die Landesgrenzen hinaus ist das politische Schweizer Zentrum für die außergewöhnlichen Outdoor-Aktivitäten, wie Urban-Swimming, Bungeesurfing oder Aaretubing im glasklaren türkisblauen Wasser der Aare, bekannt."
+  hero: "80% center"
+  description: "Umschlungen von der Aare-Schlaufe liegt Bern, die Hauptstadt der Schweiz. Gäste aus aller Welt zieht es vor allem zur imposanten UNESCO-gekrönten Altstadt mit ihrem mittelalterlichen Charme. Weit über die Landesgrenzen hinaus ist das politische Schweizer Zentrum für die außergewöhnlichen Outdoor-Aktivitäten, wie Urban-Swimming, Bungeesurfing oder Aaretubing im glasklaren türkisblauen Wasser der Aare,&nbsp;bekannt."
 
   pois:
 
@@ -11,7 +12,7 @@
 
       - title: Fluss-Schwimmen in der&nbsp;Aare
         id: one-1
-        content: "Ein fester Bestandteil der Stadtkultur ist das Urban-Swimming in der Aare. Der saubere Fluss bietet im Sommer an zahlreichen Stellen optimale Voraussetzungen für eine kurze erfrischende Auszeit. Mutige wagen einen Sprung vom 'Stägli', den kleinen Brücken-Stegen, ins kühle Nass. Wer die ganze Magie der Aare erkunden will, gleitet auf einem Stand-up-Paddle-Board die Ufer entlang. "
+        content: "Ein fester Bestandteil der Stadtkultur ist das Urban-Swimming in der Aare. Der saubere Fluss bietet im Sommer an zahlreichen Stellen optimale Voraussetzungen für eine kurze erfrischende Auszeit. Mutige wagen einen Sprung vom 'Stägli', den kleinen Brücken-Stegen, ins kühle Nass. Wer die ganze Magie der Aare erkunden will, gleitet auf einem Stand-up-Paddle-Board die Ufer&nbsp;entlang. "
 
       - title: Rosengarten
         id: one-2
@@ -19,11 +20,11 @@
 
       - title: Bungee-Surfing
         id: one-3
-        content: "Der Fluss Aare ermöglicht zahlreiche Freizeitmöglichkeiten. Wassersport-Fans begeistern sich gerne für das Bungee-Surfen. Das so genannten Aarebrättle ist eine besondere Disziplin des Wasserskis. Zwei Berner bieten seit kurzem Bungee-Surfkurse nicht nur für Anfänger an und setzten damit einen neuen Wassersport-Trend in Bern."
+        content: "Der Fluss Aare ermöglicht zahlreiche Freizeitmöglichkeiten. Wassersport-Fans begeistern sich gerne für das Bungee-Surfen. Das so genannten Aarebrättle ist eine besondere Disziplin des Wasserskis. Zwei Berner bieten seit kurzem Bungee-Surfkurse nicht nur für Anfänger an und setzten damit einen neuen Wassersport-Trend in&nbsp;Bern."
 
       - title: Biken in Bern
         id: one-4
-        content: "Bequem und individuell erkunden Sie die Hauptstadt der Schweiz vom Fahrrad aus. Radwege in und um die Stadt herum ermöglichen Ihnen einen entspannten Citytrip auf dem 'Velo' – wie die Berner ihr Lieblingsfortbewegungsmittel nennen. Ein großes Bikesharing-Netz in der Stadt bietet 2.400 Velos und E-Bikes zum Verleih an über 200 Stationen an."
+        content: "Bequem und individuell erkunden Sie die Hauptstadt der Schweiz vom Fahrrad aus. Radwege in und um die Stadt herum ermöglichen Ihnen einen entspannten Citytrip auf dem 'Velo' – wie die Berner ihr Lieblingsfortbewegungsmittel nennen. Ein großes Bikesharing-Netz in der Stadt bietet 2.400 Velos und E-Bikes zum Verleih an über 200 Stationen&nbsp;an."
 
 
 
@@ -32,7 +33,7 @@
 - id: two
   title: Lugano
   cta: http://bit.ly/2D1vDUj
-  description: "Die größte Stadt im malerischen Tessin präsentiert sich ihren Besuchern mit einem schweizerisch-mediterranen Kulturmix. Entlang der berühmten Via Nassa, zwischen lombardischen Bauten und exotischen Blumen, versprüht der drittwichtigste Finanzplatz des Landes mit seiner hochkarätigen Festival-Kultur ein weltoffenes italienisches Flair. Abenteurer und Naturfans lädt die Umgebung zu zahlreichen Aktivitäten ein. "
+  description: "Die größte Stadt im malerischen Tessin präsentiert sich ihren Besuchern mit einem schweizerisch-mediterranen Kulturmix. Entlang der berühmten Via Nassa, zwischen lombardischen Bauten und exotischen Blumen, versprüht der drittwichtigste Finanzplatz des Landes mit seiner hochkarätigen Festival-Kultur ein weltoffenes italienisches Flair. Abenteurer und Naturfans lädt die Umgebung zu zahlreichen Aktivitäten&nbsp;ein. "
 
   pois:
 
@@ -42,22 +43,22 @@
       - title: Monte Brè
         id: two-1
         caption:
-        content: "Einer der schönsten Berge im Tessin ist der Monte Bré bei Lugano. Der Ausflug zum Gipfel startet mit einer Bootsfahrt nach Cassarate, von wo Sie die Seilbahn hinauf zum Aussichtspunkt des Berges fährt. Anschließend spazieren Sie durch das beschauliche Bré, vorbei an typischen Tessiner Häusern und sakralen Wahrzeichen den Berg hinab, stets mit prachtvollem Panoramablick auf die Bucht von Lugano."
+        content: "Einer der schönsten Berge im Tessin ist der Monte Bré bei Lugano. Der Ausflug zum Gipfel startet mit einer Bootsfahrt nach Cassarate, von wo Sie die Seilbahn hinauf zum Aussichtspunkt des Berges fährt. Anschließend spazieren Sie durch das beschauliche Bré, vorbei an typischen Tessiner Häusern und sakralen Wahrzeichen den Berg hinab, stets mit prachtvollem Panoramablick auf die Bucht von&nbsp;Lugano."
 
       - title: San Salvatore
         id: two-2
-        content: "Scheinbar grenzenlos ist der Ausblick vom Zuckerhut San Salvatore über die Landschaft der Tessiner Bucht. Der majestätische Berg am südlichen Ende von Lugano bietet eine 360° Sicht über Monviso, Monte Rosa und Bernina bis hin zum Monte Legnon. Eine Standseilbahn fährt Besucher zum Gipfel des Symbolberges. Von dort führen Wanderwege durch unberührte Natur entlang des malerischen Weges nach Carona."
+        content: "Scheinbar grenzenlos ist der Ausblick vom Zuckerhut San Salvatore über die Landschaft der Tessiner Bucht. Der majestätische Berg am südlichen Ende von Lugano bietet eine 360° Sicht über Monviso, Monte Rosa und Bernina bis hin zum Monte Legnon. Eine Standseilbahn fährt Besucher zum Gipfel des Symbolberges. Von dort führen Wanderwege durch unberührte Natur entlang des malerischen Weges nach&nbsp;Carona."
 
-      - title: Parco Civido Ciani
+      - title: Parco Civido&nbsp;Ciani
         id: two-3
         caption:
-        content: "Ein Spaziergang durch den paradiesischen Parco Civido Ciani verzaubert: Unzählige Blumen erstrahlen in allen erdenklichen Farben, exotisches Gezwitscher erfüllt die Luft dazu der allgegenwärtige Blick über die malerische Bucht. Die berühmte 'Villa Ciani' ist hier anzutreffen, wie die Kantonsbibliothek und das Kongresszentrum – der Parco Civido Ciani ist beliebtes Ausflugsziel und Veranstaltungsort zugleich."
+        content: "Ein Spaziergang durch den paradiesischen Parco Civido Ciani verzaubert: Unzählige Blumen erstrahlen in allen erdenklichen Farben, exotisches Gezwitscher erfüllt die Luft dazu der allgegenwärtige Blick über die malerische Bucht. Die berühmte 'Villa Ciani' ist hier anzutreffen, wie die Kantonsbibliothek und das Kongresszentrum – der Parco Civido Ciani ist beliebtes Ausflugsziel und Veranstaltungsort&nbsp;zugleich."
 
-      - title: Spaziergang von Lugano nach Gandria
+      - title: Spaziergang von Lugano nach&nbsp;Gandria
         id: two-4
-        content: "Durch Wälder und Olivenhaine schlängelt sich der 'Sentiero dell'olivo' – der Olivenweg. Die Route entlang des Luganersees gibt Einblicke und Auskunft über die Geschichte der Botanik und die Kultivierung des Olivenbaumes sowie seiner Produkte. Der Wanderweg, gekennzeichnet mit einem Olivenbaum-Symbol, führt über San Domenico vorbei am Seeufer bis Triverli, San Vigilio und endet in Gandria. "
+        content: "Durch Wälder und Olivenhaine schlängelt sich der 'Sentiero dell'olivo' – der Olivenweg. Die Route entlang des Luganersees gibt Einblicke und Auskunft über die Geschichte der Botanik und die Kultivierung des Olivenbaumes sowie seiner Produkte. Der Wanderweg, gekennzeichnet mit einem Olivenbaum-Symbol, führt über San Domenico vorbei am Seeufer bis Triverli, San Vigilio und endet in&nbsp;Gandria. "
 
-      - title: "Strandbad Riva Caccia"
+      - title: "Strandbad Riva&nbsp;Caccia"
         id: two-5
         caption:
-        content: "Auf einer schwimmenden Plattform präsentiert sich das Strandbad Riva Caccia. Badenden und Sonnenanbetern wird hier alles geboten, was sie sich von einem Seebad wünschen: eine Liegeplattform mit Sprunganlage, Duschen und Umkleidekabinen sowie eine kleine Snack-Bar. Von der Holzplattform aus genießen Sie eine fantastische Aussicht auf die Berge und das Stadtzentrum. "
+        content: "Auf einer schwimmenden Plattform präsentiert sich das Strandbad Riva Caccia. Badenden und Sonnenanbetern wird hier alles geboten, was sie sich von einem Seebad wünschen: eine Liegeplattform mit Sprunganlage, Duschen und Umkleidekabinen sowie eine kleine Snack-Bar. Von der Holzplattform aus genießen Sie eine fantastische Aussicht auf die Berge und das&nbsp;Stadtzentrum. "

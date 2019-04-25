@@ -38,7 +38,7 @@ $core-nav-padding-sm: 1rem;
 // ---------- NAV FOR CORE SE SITE ----------
 
 // the breakpoint for the core nav list to appear as the mobile nav
-$nav-list-bp: 940px;
+$nav-list-bp: 950px;
 // the breakpoint for the logo to appear at the bottom of the mobile nav
 $logo-bp: 600px;
 
@@ -49,7 +49,7 @@ $logo-bp: 600px;
   font-family: $font-core;
   color: $black;
   text-align: center;
-  background-color: rgba($black,.85);
+  background-color: rgba($black,.75);
 
   // spacing for double logos in core nav
   .logo + .logo { margin-left: $s0; }
@@ -72,7 +72,7 @@ $logo-bp: 600px;
   &__left {
     display: flex;
     align-items: center;
-    width: 25%;
+    width: 35%;
     min-width: $core-nav-height-sm;
     @include bp($nav-list-bp) { display: none; }
   }
@@ -80,10 +80,13 @@ $logo-bp: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
-    @include bp($logo-bp) { flex-grow: 3; }
+    width: 50%;
+    @include bp($logo-bp) {
+      width: 33.33%;
+      flex-grow: 3; // needed for firefox
+    }
     @include bp($nav-list-bp) {
-      width: 40%;
+      width: 66.66%;
       justify-content: flex-start;
     }
   }
@@ -139,9 +142,9 @@ $mobile-nav-width: 75%;
   justify-content: space-between;
   width: $mobile-nav-width;
   font-family: $font-core;
-  color: $grey-darker;
+  color: $grey-lighter;
   overflow-y: auto;
-  background-color: rgba($white,.9);
+  background-color: rgba($grey-darker,.9);
   @include transition;
 
   // spacing for logos in mobile core nav
@@ -181,19 +184,19 @@ $mobile-nav-width: 75%;
     min-height: ($core-nav-height + 30);
     padding: $s0;
     margin-top: $s2;
-    //background: rgba($grey-darker,.85);
+    background: rgba($grey-darker,.85);
     @include bp($logo-bp){
       display: none;
     }
   }
   &__list-link {
-    & + & { border-top: 1px solid rgba($black,.1); }
+    & + & { border-top: 1px solid rgba($black,.33); }
     @include transition;
     display: block;
     padding-top: $s0;
     padding-bottom: $s0;
     font-size: $s0;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     &.is-current { color: $orange; }
   }

@@ -10,7 +10,7 @@
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
-  description: "An der Flussmündung der Rhone, zu den Ufern des Genfersees, liegt Genf. Die kleine Metropole ist Sitz internationaler Institutionen und bekannt für ihre kulinarische Extraklasse. Erlesene Spitzenweine, außergewöhnliche Schokoladenkreationen und regionale Köstlichkeiten warten darauf genossen zu werden. Mittelalterliche Gassen im Herzen der Stadt laden zu Genusstouren ein. Ausflüge in die nahegelegene Bergwelt werden mit einem Panoramablick über die weite Landschaft belohnt."
+  description: "An der Flussmündung der Rhone, zu den Ufern des Genfersees, liegt Genf. Die kleine Metropole ist Sitz internationaler Institutionen und bekannt für ihre kulinarische Extraklasse. Erlesene Spitzenweine, außergewöhnliche Schokoladenkreationen und regionale Köstlichkeiten warten darauf genossen zu werden. Mittelalterliche Gassen im Herzen der Stadt laden zu Genusstouren ein. Ausflüge in die nahegelegene Bergwelt werden mit einem Panoramablick über die weite Landschaft&nbsp;belohnt."
   page: overview # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
@@ -27,7 +27,7 @@
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
-  description: "Lausanne, die zweitgrößte Stadt am Genfersee, vereint pulsierendes Geschäftsleben mit der Lage eines Ferienorts. Die beliebte Universitätsstadt schafft spielend die Melange zwischen Tradition und Moderne, was sich nicht nur in der facettenreichen Architektur des Stadtquartiers Flon widerspiegelt. Die kleine Boutique-Stadt ist Heimat des 'Cuisinier du siècle' –  Fredy Girardet –  und bietet die besten Voraussetzungen für vortreffliche kulinarische Entdeckungen sowie das Verkosten der besten Tropfen aus dem Weinbau der Region. "
+  description: "Lausanne, die zweitgrößte Stadt am Genfersee, vereint pulsierendes Geschäftsleben mit der Lage eines Ferienorts. Die beliebte Universitätsstadt schafft spielend die Melange zwischen Tradition und Moderne, was sich nicht nur in der facettenreichen Architektur des Stadtquartiers Flon widerspiegelt. Die kleine Boutique-Stadt ist Heimat des 'Cuisinier du siècle' –  Fredy Girardet –  und bietet die besten Voraussetzungen für vortreffliche kulinarische Entdeckungen sowie das Verkosten der besten Tropfen aus dem Weinbau der&nbsp;Region. "
   page: overview # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
@@ -65,7 +65,7 @@
   orientation: landscape
   videoshow: display:none
   orientation: landscape
-  description: "Das beschauliche Winterthur beeindruckt mit großstädtischem Angebot und hochwertiger kultureller Vielfalt von dem sowohl Gäste wie auch Einheimische profitieren. So besitzt die kleine Boutique-Stadt die längste zusammenhängende Fußgängerzone der Schweiz, deren Geschäfte, Cafés und Bars zum Flanieren einladen. Abwechslungsreich sind die Programme und Events der Musik und Theaterszene sowie die Ausstellungen und Sammlungen des Fotomuseums. Für eine Erholungstour auf dem 'Velo' eignen sich das Züricher Weinland mit seinen Seen, Feldern und der romantische Rhein ganz besonders."
+  description: "Das beschauliche Winterthur beeindruckt mit großstädtischem Angebot und hochwertiger kultureller Vielfalt von dem sowohl Gäste wie auch Einheimische profitieren. So besitzt die kleine Boutique-Stadt die längste zusammenhängende Fußgängerzone der Schweiz, deren Geschäfte, Cafés und Bars zum Flanieren einladen. Abwechslungsreich sind die Programme und Events der Musik und Theaterszene sowie die Ausstellungen und Sammlungen des Fotomuseums. Für eine Erholungstour auf dem 'Velo' eignen sich das Züricher Weinland mit seinen Seen, Feldern und der romantische Rhein ganz&nbsp;besonders."
   page: overview # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
@@ -84,7 +84,7 @@
   youtube: "https://youtu.be/qRhFxaIt6KY"
   cta2: Mehr auf Youtube
   orientation: landscape
-  description: "Das mittelalterliche Wahrzeichen von Luzern ist weit über die Landesgrenzen hinaus bekannt. Ganz mondän und mit historischem Charme kommt die Stadt daher mit den schönen, ausladenden Ufern des Vierwaldstättersee und der Flussmündung des Reuss. Kontrastreich gestaltet sich ein Besuch dieses romantischen Kleinods, das zwischen Baudenkmälern und futuristischer Architektur eine Fülle an kulturellen Events und Ausstellungen bietet. Dreimal im Jahr wird ein Besuch ein Muss für jeden Klassik-Fan, denn dann lädt das Lucerne Festival mit Stars aus der Szene zum 'Who is Who' in den Salle Blance."
+  description: "Das mittelalterliche Wahrzeichen von Luzern ist weit über die Landesgrenzen hinaus bekannt. Ganz mondän und mit historischem Charme kommt die Stadt daher mit den schönen, ausladenden Ufern des Vierwaldstättersee und der Flussmündung des Reuss. Kontrastreich gestaltet sich ein Besuch dieses romantischen Kleinods, das zwischen Baudenkmälern und futuristischer Architektur eine Fülle an kulturellen Events und Ausstellungen bietet. Dreimal im Jahr wird ein Besuch ein Muss für jeden Klassik-Fan, denn dann lädt das Lucerne Festival mit Stars aus der Szene zum 'Who is Who' in den Salle&nbsp;Blance."
   page: overview # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
@@ -123,7 +123,7 @@
   orientation: landscape
   videoshow: display:none
   orientation: landscape
-  description: "Die Stadt mit mediterranem Flair verspricht reinstes Mittelmeer-Feeling. Das kleine Juwel im Tessiner Kanton besticht durch lombardische Schönheit, feinste italienische Gerichte und atemberaubendes Bergpanorama sowie ein großartiges Kulturangebot. Neben Musik-Events und Film-Festivals werden sich Kunstliebhaber an den kleinen Museen erfreuen. Einen ganz besonderen Reiz erfüllen die Aussichtsplattformen der weltbekannten Berge. Wie ein König der Lüfte werden Sie nach kurzen Wanderungen mit einem Panoramablick über das schöne Tessin belohnt.  "
+  description: "Die Stadt mit italienischem Flair verspricht reinstes Mittelmeer-Feeling. Das kleine Juwel im Tessiner Kanton besticht durch lombardische Schönheit, feinste italienische Gerichte und atemberaubendes Bergpanorama sowie ein großartiges Kulturangebot. Neben Musik-Events und Film-Festivals werden sich Kunstliebhaber an den kleinen Museen erfreuen. Einen ganz besonderen Reiz erfüllen die Aussichtsplattformen der weltbekannten Berge. Wie ein König der Lüfte werden Sie nach kurzen Wanderungen mit einem Panoramablick über das schöne Tessin&nbsp;belohnt. "
   page: overview # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
@@ -162,7 +162,7 @@
   youtube: "https://youtu.be/vLindG73stk"
   cta2: Mehr auf Youtube
   orientation: landscape
-  description: "Die Textilstadt und Perle am Bodensee ist nicht nur wegen seiner langen Tradition im Textilgewerbe berühmt. Vor allem das Kloster mit seiner gut erhaltenen und umfangreichen Bibliothek ist weit über die Landesgrenzen hinaus bekannt. Sogar zum UNESCO-Weltkulturerbe zählt dieses bedeutende Bauwerk, das immer eine Vielzahl an Besuchern mit seiner Anmut anlockt. Ein vielseitiges Kulturangebot sowie das älteste Theater des Landes überraschen mit außergewöhnlichen Inszenierungen. Mit der herrlichen Umgebung des Appenzeller-Lands kommen Outdoor-Aktivitäten wie Wandern, Fahrradfahren oder Schwimmen ganz sicher nie zu kurz."
+  description: "Die Textilstadt und Perle am Bodensee ist nicht nur wegen seiner langen Tradition im Textilgewerbe berühmt. Vor allem das Kloster mit seiner gut erhaltenen und umfangreichen Bibliothek ist weit über die Landesgrenzen hinaus bekannt. Sogar zum UNESCO-Weltkulturerbe zählt dieses bedeutende Bauwerk, das immer eine Vielzahl an Besuchern mit seiner Anmut anlockt. Ein vielseitiges Kulturangebot sowie das älteste Theater des Landes überraschen mit außergewöhnlichen Inszenierungen. Mit der herrlichen Umgebung des Appenzeller-Lands kommen Outdoor-Aktivitäten wie Wandern, Fahrradfahren oder Schwimmen ganz sicher nie zu&nbsp;kurz."
   page: overview # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages

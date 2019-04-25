@@ -2,36 +2,37 @@
 - id: one
   title: Zürich
   cta: http://bit.ly/2UqrRyt
-  description: "Zu Füßen des Züricher Sees liegt die größte Stadt der Schweiz. Bekannt für ihr kosmopolitisches Laisser-faire, außergewöhnliche Kunstevents und innovative Wissenschaften, zelebriert die Boutique Stadt ihre Vielfalt der Lebensstile. Das Zentrum des Bank- und Finanzwesens sowie Hauptsitz der FIFA verspricht mit seinem pulsierenden Nachtleben höchste Lebensqualität."
+  hero: "55% center"
+  description: "Zu Füßen des Züricher Sees liegt die größte Stadt der Schweiz. Bekannt für ihr kosmopolitisches Laisser-faire, außergewöhnliche Kunstevents und innovative Wissenschaften, zelebriert die Boutique Stadt ihre Vielfalt der Lebensstile. Das Zentrum des Bank- und Finanzwesens sowie Hauptsitz der FIFA verspricht mit seinem pulsierenden Nachtleben höchste&nbsp;Lebensqualität."
 
   pois:
 
     title:
     items:
 
-      - title: Kunst im öffentlichen Raum
+      - title: Kunst im öffentlichen&nbsp;Raum
         id: one-1
-        content: "Die führende Kunststadt Zürich ist bekannt für bemerkenswerte Ausstellungen, Museen und Galerien. Doch um Kunstwerke zu bestaunen, müssen Sie nur durch die Straßen spazieren, denn die Stadt selbst dient über 1300 Exponaten als Bühne. Auf einem Rundgang begegnen Kunstliebhaber Installationen bedeutender Künstler wie der 'Leerlaufmaschine' von Jean Tinguely oder der Pavillon-Skulptur von Max Bill."
+        content: "Die führende Kunststadt Zürich ist bekannt für bemerkenswerte Ausstellungen, Museen und Galerien. Doch um Kunstwerke zu bestaunen, müssen Sie nur durch die Straßen spazieren, denn die Stadt selbst dient über 1300 Exponaten als Bühne. Auf einem Rundgang begegnen Kunstliebhaber Installationen bedeutender Künstler wie der 'Leerlaufmaschine' von Jean Tinguely oder der Pavillon-Skulptur von Max&nbsp;Bill."
 
       - title: Kunstbewegung Dada
         id: one-2
-        content: "Von Zürich aus eroberte die witzige und ironische Kunstbewegung Dada die Welt. Exilkünstler, die dem Krieg und den gesellschaftlichen Normen entflohen waren, gründeten Dada 1916 in der Künstlerkneipe Cabaret Voltaire. Besuchen Sie die wichtigsten Dada-Schauplätze und lassen Sie sich die Stadt aus der dadaistischen Sicht mit Darbietungen aus dem Repertoire der Kunstbewegung erklären."
+        content: "Von Zürich aus eroberte die witzige und ironische Kunstbewegung Dada die Welt. Exilkünstler, die dem Krieg und den gesellschaftlichen Normen entflohen waren, gründeten Dada 1916 in der Künstlerkneipe Cabaret Voltaire. Besuchen Sie die wichtigsten Dada-Schauplätze und lassen Sie sich die Stadt aus der dadaistischen Sicht mit Darbietungen aus dem Repertoire der Kunstbewegung&nbsp;erklären."
 
       - title: Löwenbräu Kunst
         id: one-3
-        content: "Das Löwenbräu Areal bildet mit seiner allgegenwärtigen Melange aus historischer Kulisse und futuristischer Architektur, ein spannendes Ensemble für das sehenswerte Kulturzentrum. Zahlreiche Galerien, Wohnungen und Gewerbeflächen – nicht zu vergessen die Kunsthalle sowie das Migros Museum für Gegenwartskunst – nennen dieses kulturelle Kaleidoskop ihr Zuhause. "
+        content: "Das Löwenbräu Areal bildet mit seiner allgegenwärtigen Melange aus historischer Kulisse und futuristischer Architektur, ein spannendes Ensemble für das sehenswerte Kulturzentrum. Zahlreiche Galerien, Wohnungen und Gewerbeflächen – nicht zu vergessen die Kunsthalle sowie das Migros Museum für Gegenwartskunst – nennen dieses kulturelle Kaleidoskop ihr&nbsp;Zuhause. "
 
       - title: Architektur
         id: one-4
-        content: "Für Architektur-Begeisterte ist Zürich eine richtige Spielwiese und während der zweistündigen Stadtführung kommen Sie aus dem Staunen nicht mehr raus. Von prägenden Bauwerken der Romantik bis zu modernen Highlights internationaler Architekten werden Sie auf der Tour entdecken, wo in Zürich die besten Spots für eindrückliche Architekturfotos zu finden sind."
+        content: "Für Architektur-Begeisterte ist Zürich eine richtige Spielwiese und während der zweistündigen Stadtführung kommen Sie aus dem Staunen nicht mehr raus. Von prägenden Bauwerken der Romantik bis zu modernen Highlights internationaler Architekten werden Sie auf der Tour entdecken, wo in Zürich die besten Spots für eindrückliche Architekturfotos zu finden&nbsp;sind."
 
       - title: Kunsthaus Zürich
         id: one-5
-        content: "Im Kunsthaus Zürich schätzen Kunstliebhaber die bedeutendste Moderne Sammlung der Stadt. Neben der permanenten Kunstausstellung werden in Wechselausstellungen Exponate von Alberto Giacometti, Picasso, Monet oder Chagall präsentiert. Zeitgenössische Künstler aus der Schweiz zeigen hier ebenfalls ihre kreativen Schöpfungen, die zu den Höhepunkten der lokalen Kunstschaffenden zählen.  "
+        content: "Im Kunsthaus Zürich schätzen Kunstliebhaber die bedeutendste Moderne Sammlung der Stadt. Neben der permanenten Kunstausstellung werden in Wechselausstellungen Exponate von Alberto Giacometti, Picasso, Monet oder Chagall präsentiert. Zeitgenössische Künstler aus der Schweiz zeigen hier ebenfalls ihre kreativen Schöpfungen, die zu den Höhepunkten der lokalen Kunstschaffenden&nbsp;zählen.  "
 
-      - title: Museum für Gestaltung
+      - title: Museum für&nbsp;Gestaltung
         id: one-6
-        content: "Gleich an zwei Orten präsentiert das Museum für Gestaltung seine Ausstellungen aus den Bereichen Design, visuelle Kommunikation und Architektur. Neben wechselnden Präsentationen finden Events und Workshops statt. Zu den bedeutendsten Schweizer Designern und Architekten zählt Le Corbusier, dessen Ansichten über Architektur hier gelehrt werden. Sein letzter realisierter Entwurf der 'Pavillon Le Corbusier' steht im Züricher Seefeld."
+        content: "Gleich an zwei Orten präsentiert das Museum für Gestaltung seine Ausstellungen aus den Bereichen Design, visuelle Kommunikation und Architektur. Neben wechselnden Präsentationen finden Events und Workshops statt. Zu den bedeutendsten Schweizer Designern und Architekten zählt Le Corbusier, dessen Ansichten über Architektur hier gelehrt werden. Sein letzter realisierter Entwurf der 'Pavillon Le Corbusier' steht im Züricher&nbsp;Seefeld."
 
 
 
@@ -40,7 +41,7 @@
 - id: two
   title: Winterthur
   cta: http://bit.ly/2D4NVUM
-  description: "Umrahmt von Rheinfall, Wald und Schlössern, idyllisch verpackt zwischen Weinbergen, liegt das beschauliche Winterthur. Die kleine Stadt mit dörflichem Charme und großstädtischer Vielfalt ist eine wahre Schatztruhe der Kultur. Weit über die Landesgrenzen hinaus sind das Zentrum für Fotografie, das traditionsreichste Orchester Europas sowie das Casinotheater (ein Forum der deutschsprachigen Comedy-Szene) bekannt."
+  description: "Umrahmt von Rheinfall, Wald und Schlössern, idyllisch verpackt zwischen Weinbergen, liegt das beschauliche Winterthur. Die kleine Stadt mit dörflichem Charme und großstädtischer Vielfalt ist eine wahre Schatztruhe der Kultur. Weit über die Landesgrenzen hinaus sind das Zentrum für Fotografie, das traditionsreichste Orchester Europas sowie das Casinotheater, ein Forum der deutschsprachigen Comedy-Szene, &nbsp;bekannt."
 
   pois:
 
@@ -50,25 +51,25 @@
       - title: Urbanes Juwel
         id: two-1
         caption:
-        content: "Das einstige Herzstück der Stadt wurde lange Zeit ungenutzt sich selbst überlassen. Dank neuer Impulse entwickelte sich der Industriekomplex 'Sulzerareal' zu einem urbanen Juwel nicht nur für Architekten. Besichtigungen führen durch den Schauplatz einer gelungenen Umsetzung zwischen geschichtsträchtiger Kulisse und Moderne, der heute Raum für Bewohner, Künstler, Unternehmer und Sportbegeisterte bietet."
+        content: "Das einstige Herzstück der Stadt wurde lange Zeit ungenutzt sich selbst überlassen. Dank neuer Impulse entwickelte sich der Industriekomplex 'Sulzerareal' zu einem urbanen Juwel nicht nur für Architekten. Besichtigungen führen durch den Schauplatz einer gelungenen Umsetzung zwischen geschichtsträchtiger Kulisse und Moderne, der heute Raum für Bewohner, Künstler, Unternehmer und Sportbegeisterte&nbsp;bietet."
 
       - title: Hörgenuss
         id: two-2
-        content: "Das Orchester Winterthur blickt auf eine lange Tradition zurück. Rund 70 Konzerte pro Saison mit Werken aus der Klassik und Frühromantik sowie des 20. Jahrhunderts spielt das Musikkollegium Winterthur. Neben der Förderung junger Talente werden auch Projekte wie ein Dokumentarfilm realisiert. Auslandsreisen führen die traditionsreichste musikalische Institution Europas in die Welt hinaus. "
+        content: "Das Orchester Winterthur blickt auf eine lange Tradition zurück. Rund 70 Konzerte pro Saison mit Werken aus der Klassik und Frühromantik sowie des 20. Jahrhunderts spielt das Musikkollegium Winterthur. Neben der Förderung junger Talente werden auch Projekte wie ein Dokumentarfilm realisiert. Auslandsreisen führen die traditionsreichste musikalische Institution Europas in die Welt&nbsp;hinaus. "
 
       - title: Überwältigende Meisterwerke
         id: two-3
-        content: "Exponate von Weltformat sind im Kunstmuseum Winterthur ausgestellt. Neben der permanenten Präsentation mit einer überwältigenden Anzahl an Meisterwerken der französischen Kunst aus der klassischen Moderne, begegnen dem Besucher im futuristischem Design des Neubaus, Werke etablierter sowie noch unbekannter zeitgenössischer Künstler in wechselnden Ausstellungen. "
+        content: "Exponate von Weltformat sind im Kunstmuseum Winterthur ausgestellt. Neben der permanenten Präsentation mit einer überwältigenden Anzahl an Meisterwerken der französischen Kunst aus der klassischen Moderne, begegnen dem Besucher im futuristischem Design des Neubaus, Werke etablierter sowie noch unbekannter zeitgenössischer Künstler in wechselnden&nbsp;Ausstellungen. "
 
       - title: Augenschmaus
         id: two-4
         caption:
-        content: "Erstklassige Fotografien aus Mode, Industrie, Architektur sowie Dokumentation zeigt das Fotozentrum Winterthur. Klassische Künstler wie Edward Weston, Weegee und August Sander treffen auf zeitgenössische Lichtbildkünstler und Trendsetter wie Andreas Gursky oder Roni Horn. Gleich nebenan präsentiert die Fotostiftung Schweiz Aufnahmen Schweizer Fotokünstler, deren Schaffen sie dokumentiert. "
+        content: "Erstklassige Fotografien aus Mode, Industrie, Architektur sowie Dokumentation zeigt das Fotozentrum Winterthur. Klassische Künstler wie Edward Weston, Weegee und August Sander treffen auf zeitgenössische Lichtbildkünstler und Trendsetter wie Andreas Gursky oder Roni Horn. Gleich nebenan präsentiert die Fotostiftung Schweiz Aufnahmen Schweizer Fotokünstler, deren Schaffen sie&nbsp;dokumentiert. "
 
       - title: Science Center Technorama
         id: two-5
         caption:
-        content: "Stillen Sie Ihren Wissensdurst und erlangen Sie neue Erkenntnisse im Science Center Technorama. In Europas einzigartigem naturwissenschaftlichem Lernzentrum warten über 500 Experimentierstationen darauf, erkundet zu werden. Unter fachkundiger Anleitung testen Jung und Alt Experimente aus Wissenschaft und Technik und können Vorgänge in der eigenen Wahrnehmung, Physik oder Mathematik nachvollziehen."
+        content: "Stillen Sie Ihren Wissensdurst und erlangen Sie neue Erkenntnisse im Science Center Technorama. In Europas einzigartigem naturwissenschaftlichem Lernzentrum warten über 500 Experimentierstationen darauf, erkundet zu werden. Unter fachkundiger Anleitung testen Jung und Alt Experimente aus Wissenschaft und Technik und können Vorgänge in der eigenen Wahrnehmung, Physik oder Mathematik&nbsp;nachvollziehen."
 
 
 
@@ -78,29 +79,29 @@
 - id: three
   title: Luzern
   cta: http://bit.ly/2P2iMWG
-  description: "Zwischen den Ufern des Vierwaldstättersees und der Mündung des Reuss thront die Stadt Luzern. Das malerische Kleinod mit Europas ältester Holzbrücke ist das Tor zur Zentralschweiz. Häuser mit Fresken, neue Architektur und verwinkelte Gassen zwischen Plätzen, die mondänen Flair versprühen, bilden das Zentrum der Kunst- und Kulturstadt: Ein Kosmos der Kontraste aus Moderne und Tradition."
+  description: "Zwischen den Ufern des Vierwaldstättersees und der Mündung des Reuss thront die Stadt Luzern. Das malerische Kleinod mit Europas ältester Holzbrücke ist das Tor zur Zentralschweiz. Häuser mit Fresken, neue Architektur und verwinkelte Gassen zwischen Plätzen, die mondänen Flair versprühen, bilden das Zentrum der Kunst- und Kulturstadt: Ein Kosmos der Kontraste aus Moderne und&nbsp;Tradition."
 
   pois:
 
     title:
     items:
 
-      - title: Fumetto Comic Festival
+      - title: Fumetto Comic&nbsp;Festival
         id: three-1
         caption:
-        content: "Vom kleinen Event zur gefeierten Veranstaltung hat sich das Fumetto Comic Festival in seiner 28-jährigen Geschichte entwickelt. Die Plattform für Comic-Kunst präsentiert die wichtigsten Neuheiten der Szene, aktuelle Trends und stellt junge Talente vor. In Ausstellungen, Performances, Lesungen sowie Filmvorführungen und Partys feiert das Festival die Kunstform an verschiedenen Veranstaltungsorten der Stadt. "
+        content: "Vom kleinen Event zur gefeierten Veranstaltung hat sich das Fumetto Comic Festival in seiner 28-jährigen Geschichte entwickelt. Die Plattform für Comic-Kunst präsentiert die wichtigsten Neuheiten der Szene, aktuelle Trends und stellt junge Talente vor. In Ausstellungen, Performances, Lesungen sowie Filmvorführungen und Partys feiert das Festival die Kunstform an verschiedenen Veranstaltungsorten der&nbsp;Stadt. "
 
       - title: Lucerne Festival
         id: three-2
-        content: "Seit mehr als 75 Jahren treffen sich dreimal im Jahr berühmte Orchester, legendäre Dirigenten sowie virtuose Solisten zum Klassik-Musik-Event 'Lucerne Festival'. Das Publikum und die Klassik-Stars aus aller Welt schätzen die Atmosphäre der Stadt am Vierwaldstättersee und die phänomenale Akustik des 'Salle blanche', dem von Jean Nouvel erbauten und 1998 eröffnetem Konzert- und Kongresszentrum von Luzern. "
+        content: "Seit mehr als 75 Jahren treffen sich dreimal im Jahr berühmte Orchester, legendäre Dirigenten sowie virtuose Solisten zum Klassik-Musik-Event 'Lucerne Festival'. Das Publikum und die Klassik-Stars aus aller Welt schätzen die Atmosphäre der Stadt am Vierwaldstättersee und die phänomenale Akustik des 'Salle blanche', dem von Jean Nouvel erbauten und 1998 eröffnetem Konzert- und Kongresszentrum von&nbsp;Luzern. "
 
       - title: Beachtenswerte Sammlungen
         id: three-3
-        content: "Eine erstaunliche Fülle an Exponaten, beachtenswerten Sammlungen und wechselnden Ausstellungen bietet die Museumskultur in Luzern. Bestaunen Sie zeitgenössische Werke, historische Funde oder technische Raffinessen. Mit dem Luzerner Museums-Pass haben Sie die Möglichkeit, an zwei aufeinander folgenden Tagen beliebig viele Museen einmalig zu besuchen."
+        content: "Eine erstaunliche Fülle an Exponaten, beachtenswerten Sammlungen und wechselnden Ausstellungen bietet die Museumskultur in Luzern. Bestaunen Sie zeitgenössische Werke, historische Funde oder technische Raffinessen. Mit dem Luzerner Museums-Pass haben Sie die Möglichkeit, an zwei aufeinander folgenden Tagen beliebig viele Museen einmalig zu&nbsp;besuchen."
 
       - title: William Turner
         id: three-4
-        content: "William Turner, der Meister der englischen Romantik, war fasziniert von der Schweiz. Zwischen 1802 und 1844 reiste der Künstler auf der Suche nach Motiven sechsmal durch das Land der Berge und Seen und besuchte immer wieder auch die Stadt Luzern. Das Kunstmuseum Luzern widmet dem bedeutenden Maler zum 200-jährigen Jubiläum derzeit eine große Ausstellung."
+        content: "William Turner, der Meister der englischen Romantik, war fasziniert von der Schweiz. Zwischen 1802 und 1844 reiste der Künstler auf der Suche nach Motiven sechsmal durch das Land der Berge und Seen und besuchte immer wieder auch die Stadt Luzern. Das Kunstmuseum Luzern widmet dem bedeutenden Maler zum 200-jährigen Jubiläum derzeit eine große&nbsp;Ausstellung."
 
 
 

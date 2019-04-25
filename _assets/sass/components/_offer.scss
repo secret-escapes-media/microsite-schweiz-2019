@@ -39,16 +39,16 @@ $offer-max-width: 600px;
     background-color: $white;
   }
   &__location {
-    margin-top: .9em;
+    margin-top: .4em;
     //margin-left: 1.5em;
-    margin-bottom: 1.15em;
+    margin-bottom: .2em;
     //text-indent: -1.5em;
     font-size: 0.85em;
     line-height: 1.5;
     color: $bv-red;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-weight: 600;
+    //font-weight: 600;
   }
   &__bottom {
     display: flex;

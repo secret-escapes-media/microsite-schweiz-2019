@@ -4,16 +4,16 @@ id: overview
 nav: true
 nav-order: 1
 nav-title: Überblick
-title: Eine neue Welt erleben
+title: Kurze Auszeiten vom&nbsp;Alltag
 
 banner:
-  title-sub: Eine neue Welt erleben
+  title-sub: Kurze Auszeiten vom&nbsp;Alltag
   title: Schweiz
-  hero:
+  hero: "25% center"
   size: banner-title--xxl
 
 
-intro: "Historische Städte mit weltstädtischem Flair – Schweizer Boutique Towns sind wie geschaffen für eine kleine Auszeit vom Alltag. Auf kleinstem Raum erwarten Sie Natur, Kunst und Kultur im Überfluss, dazu ein kosmopolitisches Laisser-faire zwischen Tradition und Moderne. Unvergessen bleiben die Momente der originellen City-Touren, bei denen Sie die Städte wie Einheimische erleben. "
+intro: "Historische Städte mit weltstädtischem Flair – Schweizer Boutique Städte sind wie geschaffen für eine kleine Auszeit vom Alltag. Auf kleinstem Raum erwarten Sie Natur, Kunst und Kultur im Überfluss, dazu ein kosmo&shy;politisches Laisser-faire zwischen Tradition und Moderne. Unvergessen bleiben die Momente der originellen City-Touren, bei denen Sie die Städte wie Einheimische&nbsp;erleben. "
 
 
 
@@ -26,7 +26,6 @@ intro: "Historische Städte mit weltstädtischem Flair – Schweizer Boutique To
 <div class="" style="background-image: url({{site.img}}/content/overview/.png); background-repeat:no-repeat; background-size:cover; background-position:left;">
   <div class="container container--lg vpad--xl text--justify text--lg ">
     {{page.intro}}
-     <!--<a href="javascript:void(0);" class="btn btn--solid js-open-modal " data-modal-group="section" data-modal-item="0">Video ansehen</a>-->
   </div>
 </div>
 <div class="space--xs"></div>
@@ -39,29 +38,30 @@ intro: "Historische Städte mit weltstädtischem Flair – Schweizer Boutique To
 
 
 <div class=" bg--light">
-<div class="container vpad--xxl bg--light">
-  <h3 class="title title--lg text--center text--bold bv-divider">Entdecken Sie die Boutique Towns der Schweiz</h3>
-  <div class="space--xxxl"></div>
-  <div class="row row--xl-4-4-4">
+  <div class="container vpad--xxl ">
+    <h3 class="title title--lg text--center text--bold bv-divider">Entdecken Sie die Boutique Städte der&nbsp;Schweiz</h3>
+    <div class="space--xxxl"></div>
+    <div class="row row--md-6-6 row--lg-4-4-4 row--gutters-sm">
 
-    {% for section in site.data[page.id] %}
+      {% for section in site.data[page.id] %}
 
-      <div class="col">
+        <div class="col">
 
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/overview/highlight{{section.id}}.jpg'); ">
-         <a href="javascript:void(0);" data-modal-item="{{section.id}}" data-modal-group="section" class="js-open-modal bg-img__link"></a>
-
-          <div class="bg-img__content">
-            <div class="title title--md text--bold">{{section.title}}.</div>
-            <div class="text text--sm text--white text--light " >{{section.caption}}</div>
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/overview/highlight{{section.id}}.jpg'); ">
+           <a href="javascript:void(0);" data-modal-item="{{section.id}}" data-modal-group="section" class="js-open-modal bg-img__link"></a>
+            <div class="bg-img__content">
+              <div class="title title--sm text--bold">{{section.title}}.</div>
+              <div class="text text--sm text--white text--light " >{{section.caption}}</div>
+            </div>
+            <div class="bg-img__bg-overlay text--white text text--sm"></div>
           </div>
-          <div class="bg-img__bg-overlay text--white text text--sm"></div>
         </div>
 
-      </div>
+      {% endfor %}
 
-    {% endfor %}
-
+    </div>
+    <div class="space--xl"></div>
+    {% include components/partner-sm.html  %}
   </div>
-</div>
+
 </div>
