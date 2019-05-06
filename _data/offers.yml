@@ -1,23 +1,45 @@
 
 
-- title: Headline goes here
-  id: Sheraton-Hokkaido
-  location: Location goes here
-  description: Description goes here
-  price: xyz
+- title: Erholsame Auszeit in der Schweiz
+  id: Oberwaid
+  location: Oberwaid - Das Hotel, St. Gallen, Schweiz
+  description: Wellness und feine Kulinarik – inkl. Frühstück, Wellnessgutschein, Spa-Nutzung & Extras
+  price: 88
   price-description: pro Person - basierend auf 2 Personen
-  saved: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/88401/89e4fe9c_fd04_4510_a332_8e98a6e47089.jpg
-  link: http://bit.ly/2RWh4WR
+  saved: 31
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/93897/d0470f95_f13a_43d4_911a_0ef1a7538b44.jpg
+  link: http://bit.ly/3010J8f
   flight-tag: #
 
-- title: Headline goes here
+- title: Brandneues Designhotel in Zürich
   id: Sheraton-Hokkaido
-  location: Location goes here
-  description: Description goes here
-  price: xyz
+  location: Harry's Home Zürich Wallisellen, Zürich, Schweiz
+  description: Exklusives Business Studio – inkl. Frühstück & WLAN
+  price: 52
   price-description: pro Person - basierend auf 2 Personen
-  saved: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/88401/89e4fe9c_fd04_4510_a332_8e98a6e47089.jpg
-  link: http://bit.ly/2RWh4WR
+  saved: 29
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/93437/cfb0a130_87fe_4dd0_9cb5_f3c90b7957e1.jpg
+  link: http://bit.ly/2ZUIf9D
+  flight-tag: #
+
+- title: Morcote – Mediterranes Flair im Tessin
+  id: Relais-Castello
+  location: Relais Castello di Morcote, Lugano, Tessin, Schweiz
+  description: Lifestyle & Weingenuss hinter historischen Klostermauern – inkl. Frühstück & Extras
+  price: 74
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 33
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/91636/16f4d3e7_7d4a_4558_a632_e404040ae158.jpg
+  link: http://bit.ly/2Y4RgLq
+  flight-tag: #
+
+- title: Erholung pur am Luganer See in der Schweiz
+  id: Swiss-Diamond
+  location: Swiss Diamond Hotel & Spa, Vico Morcote, Schweiz
+  description: First-Class-Hotel vor alpiner Traumkulisse – inkl. Frühstück & Spa-Zugang
+  price: 96
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 30
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/92714/b15c9060_582f_4ff4_8a5b_52af22520471.jpg
+  link: http://bit.ly/2vDbMXn
   flight-tag: #

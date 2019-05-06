@@ -1,7 +1,7 @@
 
 - id: one
   title: Zürich
-  cta: http://bit.ly/2UqrRyt
+  cta: http://bit.ly/2DMlQSn
   hero: "55% center"
   description: "Zu Füßen des Züricher Sees liegt die größte Stadt der Schweiz. Bekannt für ihr kosmopolitisches Laisser-faire, außergewöhnliche Kunstevents und innovative Wissenschaften, zelebriert die Boutique Stadt ihre Vielfalt der Lebensstile. Das Zentrum des Bank- und Finanzwesens sowie Hauptsitz der FIFA verspricht mit seinem pulsierenden Nachtleben höchste&nbsp;Lebensqualität."
 
@@ -40,7 +40,7 @@
 
 - id: two
   title: Winterthur
-  cta: http://bit.ly/2D4NVUM
+  cta: http://bit.ly/2JeVegb
   description: "Umrahmt von Rheinfall, Wald und Schlössern, idyllisch verpackt zwischen Weinbergen, liegt das beschauliche Winterthur. Die kleine Stadt mit dörflichem Charme und großstädtischer Vielfalt ist eine wahre Schatztruhe der Kultur. Weit über die Landesgrenzen hinaus sind das Zentrum für Fotografie, das traditionsreichste Orchester Europas sowie das Casinotheater, ein Forum der deutschsprachigen Comedy-Szene, &nbsp;bekannt."
 
   pois:
@@ -78,7 +78,7 @@
 
 - id: three
   title: Luzern
-  cta: http://bit.ly/2P2iMWG
+  cta: http://bit.ly/2LfIRTQ
   description: "Zwischen den Ufern des Vierwaldstättersees und der Mündung des Reuss thront die Stadt Luzern. Das malerische Kleinod mit Europas ältester Holzbrücke ist das Tor zur Zentralschweiz. Häuser mit Fresken, neue Architektur und verwinkelte Gassen zwischen Plätzen, die mondänen Flair versprühen, bilden das Zentrum der Kunst- und Kulturstadt: Ein Kosmos der Kontraste aus Moderne und&nbsp;Tradition."
 
   pois:
