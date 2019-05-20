@@ -32,7 +32,7 @@ function modalOpen(event, modalId){
       modal.addClass('modal--carousel').addClass('modal--carousel-' + modalGroup);
 
     }
-console.log(modalItem);
+//console.log(modalItem);
     // update video
     if( $(modalItem).attr('data-video-id') ){
       var modalVideoId = $(modalItem).data('video-id');

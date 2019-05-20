@@ -1,25 +1,14 @@
 
 
-- title: Erholsame Auszeit in der Schweiz
-  id: Oberwaid
-  location: Oberwaid - Das Hotel, St. Gallen, Schweiz
-  description: Wellness und feine Kulinarik – inkl. Frühstück, Wellnessgutschein, Spa-Nutzung & Extras
-  price: 88
+- title: Businesshotel am Genfersee in Lausanne
+  id: Hotel-46A
+  location: Hotel 46A, Lausanne, Waadt, Schweiz
+  description: Inkl. Frühstück & täglichem Getränk, Zugang zu Sauna, Fitnessbereich & Hamam
+  price: 92
   price-description: pro Person - basierend auf 2 Personen
-  saved: 31
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/93897/d0470f95_f13a_43d4_911a_0ef1a7538b44.jpg
-  link: http://bit.ly/3010J8f
-  flight-tag: #
-
-- title: Brandneues Designhotel in Zürich
-  id: Sheraton-Hokkaido
-  location: Harry's Home Zürich Wallisellen, Zürich, Schweiz
-  description: Exklusives Business Studio – inkl. Frühstück & WLAN
-  price: 52
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 29
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/93437/cfb0a130_87fe_4dd0_9cb5_f3c90b7957e1.jpg
-  link: http://bit.ly/2ZUIf9D
+  saved: 30
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94450/fb762a60_9fc4_4033_b684_15336059a0b6.jpg
+  link: http://bit.ly/2Q97bFG
   flight-tag: #
 
 - title: Edle 4*-Architektur in Zürich
@@ -42,4 +31,15 @@
   saved: 54
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/87126/a55bdaea_b867_4290_b35c_e3839e5ce731.jpg
   link: http://bit.ly/2VzCpf2
+  flight-tag: #
+
+- title: Boutiquegeflüster in Basel
+  id: The-Passage
+  location: The Passage, Basel, Schweiz
+  description: Inkl. Frühstück, Basel-Card, Zugang zum Fitnessbereich und Sauna & WLAN
+  price: 60
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 44
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/67363/c5cf5bc4_e761_42e3_b416_20f052937340.jpg
+  link: http://bit.ly/2WO65ln
   flight-tag: #
