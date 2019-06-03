@@ -1,5 +1,4 @@
 
-
 - title: Businesshotel am Genfersee in Lausanne
   id: Hotel-46A
   location: Hotel 46A, Lausanne, Waadt, Schweiz
@@ -9,28 +8,6 @@
   saved: 30
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94450/fb762a60_9fc4_4033_b684_15336059a0b6.jpg
   link: http://bit.ly/2Q97bFG
-  flight-tag: #
-
-- title: Edle 4*-Architektur in Zürich
-  id: Hotel-Zuerich
-  location: H+ Hotel Zürich, Schweiz
-  description:  Inkl. Frühstück, spätem Check-out, Begrüßungsgetränk & Wellness-Zugang
-  price: 70
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 39
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85587/f2b5310f_8ae4_48a3_8b73_a6821184fbfc.jpg
-  link: http://bit.ly/2Hi7YAc
-  flight-tag: #
-
-- title: Entspannung & Kultur in Genf
-  id: Hotel-Paquis
-  location: 9 Hotel Paquis Geneve, Genf, Schweiz
-  description: Zimmer in Bestlage – inkl. Frühstück, Detox-Cocktail sowie Pool- & Sauna-Zugang
-  price: 70
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 54
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/87126/a55bdaea_b867_4290_b35c_e3839e5ce731.jpg
-  link: http://bit.ly/2VzCpf2
   flight-tag: #
 
 - title: Boutiquegeflüster in Basel
