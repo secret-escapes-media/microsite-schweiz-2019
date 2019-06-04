@@ -1,22 +1,12 @@
 
-- title: Businesshotel am Genfersee in Lausanne
-  id: Hotel-46A
-  location: Hotel 46A, Lausanne, Waadt, Schweiz
-  description: Inkl. Frühstück & täglichem Getränk, Zugang zu Sauna, Fitnessbereich & Hamam
-  price: 92
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 30
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94450/fb762a60_9fc4_4033_b684_15336059a0b6.jpg
-  link: http://bit.ly/2Q97bFG
-  flight-tag: #
 
-- title: Boutiquegeflüster in Basel
+- title: Entspannung über den Dächern von Zürich
   id: The-Passage
-  location: The Passage, Basel, Schweiz
-  description: Inkl. Frühstück, Basel-Card, Zugang zum Fitnessbereich und Sauna & WLAN
-  price: 60
+  location: Sorell Hotel Rigiblick, Zürich, Schweiz
+  description: Zwischen Naturidylle und Züricher City – inkl. Frühstück, privatem Wellness-Zugang & Extras
+  price: 188
   price-description: pro Person - basierend auf 2 Personen
-  saved: 44
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/67363/c5cf5bc4_e761_42e3_b416_20f052937340.jpg
-  link: http://bit.ly/2WO65ln
+  saved: 27
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95417/d20718e4_907a_4dbc_a9c4_8ba1f8ec47b1.jpg
+  link: http://bit.ly/2Z6mUsj
   flight-tag: #
