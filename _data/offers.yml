@@ -1,12 +1,34 @@
 
 
-- title: Entspannung über den Dächern von Zürich
-  id: The-Passage
-  location: Sorell Hotel Rigiblick, Zürich, Schweiz
-  description: Zwischen Naturidylle und Züricher City – inkl. Frühstück, privatem Wellness-Zugang & Extras
-  price: 188
+- title: Boutique-Flair in Winterthurs Altstadt
+  id: Sorell-Hotel
+  location: Sorell Hotel Krone, Winterthur, Schweiz
+  description: Moderner Charme im historischen Gebäude mitten in Winterthurs Altstadt
+  price: 66
   price-description: pro Person - basierend auf 2 Personen
-  saved: 27
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95417/d20718e4_907a_4dbc_a9c4_8ba1f8ec47b1.jpg
-  link: http://bit.ly/2Z6mUsj
+  saved: 10
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95919/3ca5d077_eb9a_4ccd_a465_5a8e980b1c5d.jpg?auto=format,compress
+  link: http://bit.ly/2K9620P
+  flight-tag: #
+
+- title: Kulturtrip an den Ufern des Vierwaldstättersees
+  id: Hotel-Schweizerhof
+  location: Hotel Schweizerhof Luzern, Schweiz
+  description: 5*-Luxus direkt am See
+  price: 224
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 14
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95914/6e258960_6e16_4aa8_87a3_40cede8d9400.jpg?auto=format,compress
+  link: http://bit.ly/2Wvj624
+  flight-tag: #
+
+- title: Entdecker-Trip in die Schweizer Hauptstadt
+  id: Hotel-Savoy
+  location: Hotel Savoy Bern, Schweiz
+  description: Aufenthalt im Herzen von Bern
+  price: 87
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 15
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95917/4e0cd1fd_3fe0_4698_a5e1_20d5c93ad867.jpg?auto=format,compress
+  link: http://bit.ly/2wJlE2k
   flight-tag: #
